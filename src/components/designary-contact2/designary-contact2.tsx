@@ -5,6 +5,7 @@ import { Component, Host, h } from '@stencil/core';
   styleUrl: 'designary-contact2.css',
   shadow: true,
 })
+
 export class DesignaryContact2 {
 
   render() {
