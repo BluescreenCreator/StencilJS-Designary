@@ -20,6 +20,7 @@ export namespace Components {
     interface DesignarySlider {
     }
     interface DesignaryTestimonial {
+        "brand": string;
         "person": string;
         "text": string;
     }
@@ -117,6 +118,7 @@ declare namespace LocalJSX {
     interface DesignarySlider {
     }
     interface DesignaryTestimonial {
+        "brand"?: string;
         "person"?: string;
         "text"?: string;
     }

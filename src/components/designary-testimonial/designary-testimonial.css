@@ -1,31 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
 :host {
-  display: block;
-  width: 42vw;
+  
+  width: 44vw;
   margin: 0px;
+  min-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .testimonial-container {
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 220px;
-  width: 42vw;
+  height: 300px;
+  width: 44vw;
   max-width: 560px;
+  
   font-size: 24pt;
-  padding: 20px;
 }
 
 .greenline {
     height: 2px;
-    width: 42vw;
+    width: 44vw;
     background-color: #34FFC8;
 }
 
+.testimonial-main {
+  padding-left: 28px;
+}
+
 .text-container {
-  padding: 20px 80px 70px 40px;
+  padding: 20px 36px 70px 70px;
   line-height: 1.7;
-  width: 40vw;
+  width: 44vw;
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -35,5 +44,23 @@
 }
 
 .customer-container {
-  font-size: 20pt;
+  margin-top: 36px;
+  padding-right: 36px;
+  width: 42vw;
+  font-size: 16pt;
+  justify-items: right;
+  text-align: right;
+  flex-wrap: nowrap;
+}
+
+.signs {
+  background-image: url("/src/icons/signs-icon.png") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  height: 58px;
+  width: 56px;
+  z-index: 0;
+  position: relative;
+  top: 50px;
 }
