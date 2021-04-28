@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, Host, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'designary-testimonial',
@@ -8,17 +8,20 @@ import { Component, Host, h } from '@stencil/core';
 
 export class DesignaryTestimonial {
 
+  @Prop() text: string;
+  @Prop() person: string;
+
   render() {
     return (
       <Host>
         <div class="testimonial-container">
           <div class="greenline"></div>
             <div class="text-container">
-              <slot name="text"></slot>
+              {this.text}
             </div>
           <div class="greenline"></div>
           <div class="customer-container">
-              <slot name="person"></slot>
+              - {this.person}
           </div>
         </div>
       </Host>
