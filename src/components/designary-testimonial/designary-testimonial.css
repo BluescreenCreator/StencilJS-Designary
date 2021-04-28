@@ -4,9 +4,8 @@
 
 :host {
   
-  width: 44vw;
-  margin: 0px;
-  min-width: 400px;
+  width: 600px;
+  margin-top: 0px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -15,15 +14,14 @@
 
 .testimonial-container {
   height: 300px;
-  width: 44vw;
-  max-width: 560px;
-  
+  width: 600px;
+  max-width: 600px;
   font-size: 24pt;
 }
 
 .greenline {
     height: 2px;
-    width: 44vw;
+    width: 600px;
     background-color: #34FFC8;
 }
 
@@ -34,7 +32,7 @@
 .text-container {
   padding: 20px 36px 70px 70px;
   line-height: 1.7;
-  width: 44vw;
+  width: 600px;
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -44,9 +42,9 @@
 }
 
 .customer-container {
-  margin-top: 36px;
-  padding-right: 36px;
-  width: 42vw;
+  margin-top: 26px;
+  padding-right: 26px;
+  width: 600px;
   font-size: 16pt;
   justify-items: right;
   text-align: right;

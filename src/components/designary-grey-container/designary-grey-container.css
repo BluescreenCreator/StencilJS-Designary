@@ -44,4 +44,5 @@ slot {
 
 .slot-container {
   justify-self: center;
+  margin-bottom: 100px;
 }
