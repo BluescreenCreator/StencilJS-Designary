@@ -318,6 +318,48 @@
   white-space: nowrap;
 }
 
+.section-title{
+  color: #fff;
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 40px 30px;
+
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  color: #fff;
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-weight: 100;
+  line-height: 25px;
+  box-shadow: 0 4px 8px 0 rgba(250, 221, 221, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #323232;
+  border-radius: 4px;
+  margin: 15px 0;
+  border: solid #34ffc8;
+}
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,300|Noto+Sans:700');
 * {
