@@ -7,11 +7,11 @@ function myFunction() {
   
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
+      btnText.innerHTML = "weitere Bilder";
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "Read less";
+      btnText.innerHTML = "weniger Bilder";
       moreText.style.display = "inline";
     }
   } 
