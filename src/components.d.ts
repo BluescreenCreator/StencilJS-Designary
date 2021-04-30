@@ -24,6 +24,9 @@ export namespace Components {
         "person": string;
         "text": string;
     }
+    interface DesingarySlideshow {
+        "containerTitle": string;
+    }
     interface ExampleComponent {
         "exampleProp": string;
         "exampleToUpperCase": () => Promise<void>;
@@ -80,6 +83,12 @@ declare global {
         prototype: HTMLDesignaryTestimonialElement;
         new (): HTMLDesignaryTestimonialElement;
     };
+    interface HTMLDesingarySlideshowElement extends Components.DesingarySlideshow, HTMLStencilElement {
+    }
+    var HTMLDesingarySlideshowElement: {
+        prototype: HTMLDesingarySlideshowElement;
+        new (): HTMLDesingarySlideshowElement;
+    };
     interface HTMLExampleComponentElement extends Components.ExampleComponent, HTMLStencilElement {
     }
     var HTMLExampleComponentElement: {
@@ -99,6 +108,7 @@ declare global {
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-slider": HTMLDesignarySliderElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
+        "desingary-slideshow": HTMLDesingarySlideshowElement;
         "example-component": HTMLExampleComponentElement;
         "my-component": HTMLMyComponentElement;
     }
@@ -121,6 +131,9 @@ declare namespace LocalJSX {
         "brand"?: string;
         "person"?: string;
         "text"?: string;
+    }
+    interface DesingarySlideshow {
+        "containerTitle"?: string;
     }
     interface ExampleComponent {
         "exampleProp"?: string;
@@ -147,6 +160,7 @@ declare namespace LocalJSX {
         "designary-grey-container": DesignaryGreyContainer;
         "designary-slider": DesignarySlider;
         "designary-testimonial": DesignaryTestimonial;
+        "desingary-slideshow": DesingarySlideshow;
         "example-component": ExampleComponent;
         "my-component": MyComponent;
     }
@@ -161,6 +175,7 @@ declare module "@stencil/core" {
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
+            "desingary-slideshow": LocalJSX.DesingarySlideshow & JSXBase.HTMLAttributes<HTMLDesingarySlideshowElement>;
             "example-component": LocalJSX.ExampleComponent & JSXBase.HTMLAttributes<HTMLExampleComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }

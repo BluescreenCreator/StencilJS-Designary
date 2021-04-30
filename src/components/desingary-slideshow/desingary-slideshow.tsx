@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, Host, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'desingary-slideshow',
@@ -7,14 +7,16 @@ import { Component, Host, h } from '@stencil/core';
 })
 export class DesingarySlideshow {
 
+  @Prop() containerTitle: string;
+  
   render() {
     return (
       <Host>
           <div id="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            <input type="radio" name="slider" id="slide4">
+            <input type="radio" name="slider" id="slide1" checked></input>
+            <input type="radio" name="slider" id="slide2"></input>
+            <input type="radio" name="slider" id="slide3"></input>
+            <input type="radio" name="slider" id="slide4"></input>
             <div id="slides">
                 <div id="overflow">
                   <div class="inner">
@@ -47,16 +49,16 @@ export class DesingarySlideshow {
                 </div>
             </div>
             <div id="controls">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
+                <label htmlFor="slide1"></label>
+                <label htmlFor="slide2"></label>
+                <label htmlFor="slide3"></label>
+                <label htmlFor="slide4"></label>
             </div>
             <div id="bullets">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
+                <label htmlFor="slide1"></label>
+                <label htmlFor="slide2"></label>
+                <label htmlFor="slide3"></label>
+                <label htmlFor="slide4"></label>
             </div>
           </div>
       </Host>
