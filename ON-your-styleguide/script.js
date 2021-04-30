@@ -1,4 +1,5 @@
 document.querySelector('example-component').addEventListener('exampleEvent', () => console.log('test'));
+
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
