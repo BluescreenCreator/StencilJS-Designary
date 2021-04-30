@@ -333,11 +333,15 @@
 .column {
   float: left;
   width: 20%;
-  padding: 40px 30px;
+  padding: 40px 0px;
+  margin-left: 60px;
+  margin-right: 60px;
 
 }
 
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+}
 
 .row:after {
   content: "";
@@ -351,13 +355,14 @@
   font-size: var(--font-size-m);
   font-weight: 100;
   line-height: 25px;
-  box-shadow: 0 4px 8px 0 rgba(250, 221, 221, 0.2); /* this adds the "card" effect */
+  /* box-shadow: 0 4px 8px 0 rgba(250, 221, 221, 0.2); this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #323232;
-  border-radius: 4px;
   margin: 15px 0;
-  border: solid #34ffc8;
+}
+
+.card-icon{
+  height: 60px;
 }
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
