@@ -22,7 +22,7 @@ export class DesingarySlideshow {
                       <div class="slide slide_1">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide1.png" class="picture">
+                              <img src="slide1.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>Web-Design</h2>
@@ -32,14 +32,14 @@ export class DesingarySlideshow {
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
                             <br></br>
                             <br></br>
-                            <p style="font-weight:bold">Read more</p>
+                            <p>Read more</p>
                         </div>
                         </div>   
                       </div>
                       <div class="slide slide_2">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide2.png" class="picture">
+                              <img src="slide2.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>Logo-Design</h2>
@@ -49,14 +49,14 @@ export class DesingarySlideshow {
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
                             <br></br>
                             <br></br>
-                            <p style="font-weight:bold">Read more ></p>
+                            <p>Read more</p>
                             </div>
                         </div>
                       </div>
                       <div class="slide slide_3">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide3.png" class="picture">
+                              <img src="slide3.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>Banner-Ads</h2>
@@ -66,14 +66,14 @@ export class DesingarySlideshow {
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
                             <br></br>
                             <br></br>
-                            <p style="font-weight:bold">Read more ></p>
+                            <p>Read more</p>
                             </div>
                         </div>
                       </div>
                       <div class="slide slide_4">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide1.png" class="picture">
+                              <img src="slide1.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>UX-Design</h2>
@@ -83,7 +83,7 @@ export class DesingarySlideshow {
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
                             <br></br>
                             <br></br>
-                            <p style="font-weight:bold">Read more ></p>
+                            <p>Read more</p>
                             </div>
                         </div>
                       </div>
@@ -91,12 +91,6 @@ export class DesingarySlideshow {
                 </div>
             </div>
             <div id="controls">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
-            </div>
-            <div id="bullets">
                 <label for="slide1"></label>
                 <label for="slide2"></label>
                 <label for="slide3"></label>

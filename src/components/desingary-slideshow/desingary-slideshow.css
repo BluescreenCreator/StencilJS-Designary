@@ -123,24 +123,6 @@ p {
   margin: 0 0 0 -50px;
   display: block;
 }
-#bullets {
-  margin: 150px 0 0;
-  text-align: center;
-}
-#bullets label {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background: #ccc;
-  margin: 0 10px;
-}
-#slide1:checked ~ #bullets label:nth-child(1),
-#slide2:checked ~ #bullets label:nth-child(2),
-#slide3:checked ~ #bullets label:nth-child(3),
-#slide4:checked ~ #bullets label:nth-child(4) {
-  background: #444;
-}
 @media screen and (max-width: 900px) {
   #slide1:checked ~ #controls label:nth-child(2),
   #slide2:checked ~ #controls label:nth-child(3),

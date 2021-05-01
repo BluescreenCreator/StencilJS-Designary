@@ -17,9 +17,6 @@ export namespace Components {
     interface DesignaryGreyContainer {
         "containerTitle": string;
     }
-    interface DesignarySlider {
-        "containerTitle": string;
-    }
     interface DesignaryTestimonial {
         "brand": string;
         "person": string;
@@ -72,12 +69,6 @@ declare global {
         prototype: HTMLDesignaryGreyContainerElement;
         new (): HTMLDesignaryGreyContainerElement;
     };
-    interface HTMLDesignarySliderElement extends Components.DesignarySlider, HTMLStencilElement {
-    }
-    var HTMLDesignarySliderElement: {
-        prototype: HTMLDesignarySliderElement;
-        new (): HTMLDesignarySliderElement;
-    };
     interface HTMLDesignaryTestimonialElement extends Components.DesignaryTestimonial, HTMLStencilElement {
     }
     var HTMLDesignaryTestimonialElement: {
@@ -107,7 +98,6 @@ declare global {
         "designary-contact2": HTMLDesignaryContact2Element;
         "designary-employee": HTMLDesignaryEmployeeElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
-        "designary-slider": HTMLDesignarySliderElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
         "desingary-slideshow": HTMLDesingarySlideshowElement;
         "example-component": HTMLExampleComponentElement;
@@ -124,9 +114,6 @@ declare namespace LocalJSX {
         "test"?: String;
     }
     interface DesignaryGreyContainer {
-        "containerTitle"?: string;
-    }
-    interface DesignarySlider {
         "containerTitle"?: string;
     }
     interface DesignaryTestimonial {
@@ -160,7 +147,6 @@ declare namespace LocalJSX {
         "designary-contact2": DesignaryContact2;
         "designary-employee": DesignaryEmployee;
         "designary-grey-container": DesignaryGreyContainer;
-        "designary-slider": DesignarySlider;
         "designary-testimonial": DesignaryTestimonial;
         "desingary-slideshow": DesingarySlideshow;
         "example-component": ExampleComponent;
@@ -175,7 +161,6 @@ declare module "@stencil/core" {
             "designary-contact2": LocalJSX.DesignaryContact2 & JSXBase.HTMLAttributes<HTMLDesignaryContact2Element>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
-            "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
             "desingary-slideshow": LocalJSX.DesingarySlideshow & JSXBase.HTMLAttributes<HTMLDesingarySlideshowElement>;
             "example-component": LocalJSX.ExampleComponent & JSXBase.HTMLAttributes<HTMLExampleComponentElement>;
