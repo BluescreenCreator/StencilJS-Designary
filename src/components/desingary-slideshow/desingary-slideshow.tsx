@@ -12,10 +12,10 @@ export class DesingarySlideshow {
     return (
       <Host>
           <div id="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            <input type="radio" name="slider" id="slide4">
+            <input type="radio" name="slider" id="slide1" checked></input>
+            <input type="radio" name="slider" id="slide2"></input>
+            <input type="radio" name="slider" id="slide3"></input>
+            <input type="radio" name="slider" id="slide4"></input>
             <div id="slides">
                 <div id="overflow">
                   <div class="inner">
@@ -26,13 +26,13 @@ export class DesingarySlideshow {
                             </div>
                             <div class="text">
                             <h2>Web-Design</h2>
-                            <br>
+                            <br></br>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                             <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br>
-                            <br>
-                            <p style="font-weight:bold">Read more ></p>
+                            <br></br>
+                            <br></br>
+                            <p style="font-weight:bold">Read more</p>
                         </div>
                         </div>   
                       </div>
@@ -43,12 +43,12 @@ export class DesingarySlideshow {
                             </div>
                             <div class="text">
                             <h2>Logo-Design</h2>
-                            <br>
+                            <br></br>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                             <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br>
-                            <br>
+                            <br></br>
+                            <br></br>
                             <p style="font-weight:bold">Read more ></p>
                             </div>
                         </div>
@@ -60,12 +60,12 @@ export class DesingarySlideshow {
                             </div>
                             <div class="text">
                             <h2>Banner-Ads</h2>
-                            <br>
+                            <br></br>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                             <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br>
-                            <br>
+                            <br></br>
+                            <br></br>
                             <p style="font-weight:bold">Read more ></p>
                             </div>
                         </div>
@@ -77,12 +77,12 @@ export class DesingarySlideshow {
                             </div>
                             <div class="text">
                             <h2>UX-Design</h2>
-                            <br>
+                            <br></br>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
                             <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
                             <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br>
-                            <br>
+                            <br></br>
+                            <br></br>
                             <p style="font-weight:bold">Read more ></p>
                             </div>
                         </div>
