@@ -91,10 +91,10 @@ export class DesingarySlideshow {
                 </div>
             </div>
             <div id="controls">
-                <label for="slide1"></label>
-                <label for="slide2"></label>
-                <label for="slide3"></label>
-                <label for="slide4"></label>
+                <label htmlFor="slide1"></label>
+                <label htmlFor="slide2"></label>
+                <label htmlFor="slide3"></label>
+                <label htmlFor="slide4"></label>
             </div>
           </div>
       </Host>
