@@ -3,12 +3,11 @@ import { Component, Host, h, Prop } from '@stencil/core';
 @Component({
   tag: 'desingary-slideshow',
   styleUrl: 'desingary-slideshow.css',
-  shadow: true,
 })
 export class DesingarySlideshow {
 
   @Prop() containerTitle: string;
-  
+
   render() {
     return (
       <Host>
