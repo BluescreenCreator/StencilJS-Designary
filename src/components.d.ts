@@ -20,6 +20,8 @@ export namespace Components {
     }
     interface DesignaryFooter {
     }
+    interface DesignaryGallery {
+    }
     interface DesignaryGreyContainer {
         "containerTitle": string;
     }
@@ -91,6 +93,12 @@ declare global {
         prototype: HTMLDesignaryFooterElement;
         new (): HTMLDesignaryFooterElement;
     };
+    interface HTMLDesignaryGalleryElement extends Components.DesignaryGallery, HTMLStencilElement {
+    }
+    var HTMLDesignaryGalleryElement: {
+        prototype: HTMLDesignaryGalleryElement;
+        new (): HTMLDesignaryGalleryElement;
+    };
     interface HTMLDesignaryGreyContainerElement extends Components.DesignaryGreyContainer, HTMLStencilElement {
     }
     var HTMLDesignaryGreyContainerElement: {
@@ -140,6 +148,7 @@ declare global {
         "designary-contact2": HTMLDesignaryContact2Element;
         "designary-employee": HTMLDesignaryEmployeeElement;
         "designary-footer": HTMLDesignaryFooterElement;
+        "designary-gallery": HTMLDesignaryGalleryElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-header-hero_teaser": HTMLDesignaryHeaderHero_teaserElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
@@ -163,6 +172,8 @@ declare namespace LocalJSX {
         "test"?: String;
     }
     interface DesignaryFooter {
+    }
+    interface DesignaryGallery {
     }
     interface DesignaryGreyContainer {
         "containerTitle"?: string;
@@ -204,6 +215,7 @@ declare namespace LocalJSX {
         "designary-contact2": DesignaryContact2;
         "designary-employee": DesignaryEmployee;
         "designary-footer": DesignaryFooter;
+        "designary-gallery": DesignaryGallery;
         "designary-grey-container": DesignaryGreyContainer;
         "designary-header-hero_teaser": DesignaryHeaderHero_teaser;
         "designary-testimonial": DesignaryTestimonial;
@@ -223,6 +235,7 @@ declare module "@stencil/core" {
             "designary-contact2": LocalJSX.DesignaryContact2 & JSXBase.HTMLAttributes<HTMLDesignaryContact2Element>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
             "designary-footer": LocalJSX.DesignaryFooter & JSXBase.HTMLAttributes<HTMLDesignaryFooterElement>;
+            "designary-gallery": LocalJSX.DesignaryGallery & JSXBase.HTMLAttributes<HTMLDesignaryGalleryElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-header-hero_teaser": LocalJSX.DesignaryHeaderHero_teaser & JSXBase.HTMLAttributes<HTMLDesignaryHeaderHero_teaserElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
