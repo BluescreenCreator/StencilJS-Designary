@@ -9,6 +9,10 @@ export namespace Components {
     interface DesignaryButton {
     }
     interface DesignaryCards {
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 6d18f0d5352d3722829990972f2784ced08b886f
     }
     interface DesignaryContact {
         "containerTitle": string;
