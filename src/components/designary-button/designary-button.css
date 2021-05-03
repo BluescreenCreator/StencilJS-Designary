@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+button {
+  width: 150px;
+  position: relative;
+  border: 10px solid;
+  border-radius: 21px;
+  border-color: var(--colorAccent);
+  background: var(--colorAccent);
+  z-index: 1;
+  box-shadow: 5px 5px 20px #8cfddf;
+}
+
