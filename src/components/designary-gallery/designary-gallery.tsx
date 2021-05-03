@@ -32,12 +32,8 @@ export class DesignaryGallery {
             <img src="/src/bilder/swan.jpg" alt="images" width="267" height="267"/>
             <img src="/src/bilder/tauchen.jpg" alt="images" width="267" height="267"/>
         </span></p>
-        {/* <div class="button">
-        <button onclick="myFunction()" id="myBtn">weitere Bilder</button>
-    </div> */}
 </div>
       </Host>
     );
+    }
   }
-
-}
