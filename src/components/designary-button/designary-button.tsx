@@ -11,10 +11,11 @@ export class DesignaryButton {
   render() {
     return (
       <Host>
-        <div class="button">
+        <div class="button1">
         <button type="button"><a href="#">Contact</a></button>
         </div>
-        <div class="button">
+        <br></br>
+        <div class="button2">
         <button type="button" class="smallButton"><a href="#">Contact</a></button>
         </div>
       </Host>
