@@ -10,7 +10,7 @@ export class DesignaryFooter {
   render() {
     return (
       <Host>
-        <slot></slot>
+        
       </Host>
     );
   }
