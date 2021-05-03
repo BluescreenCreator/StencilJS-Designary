@@ -19,8 +19,6 @@ export namespace Components {
     interface DesignaryGreyContainer {
         "containerTitle": string;
     }
-    interface DesignarySlider {
-    }
     interface DesignaryTestimonial {
         "brand": string;
         "person": string;
@@ -28,6 +26,8 @@ export namespace Components {
     }
     interface DesingarySlideshow {
         "containerTitle": string;
+    }
+    interface DesingaryTest {
     }
     interface ExampleComponent {
         "exampleProp": string;
@@ -79,12 +79,6 @@ declare global {
         prototype: HTMLDesignaryGreyContainerElement;
         new (): HTMLDesignaryGreyContainerElement;
     };
-    interface HTMLDesignarySliderElement extends Components.DesignarySlider, HTMLStencilElement {
-    }
-    var HTMLDesignarySliderElement: {
-        prototype: HTMLDesignarySliderElement;
-        new (): HTMLDesignarySliderElement;
-    };
     interface HTMLDesignaryTestimonialElement extends Components.DesignaryTestimonial, HTMLStencilElement {
     }
     var HTMLDesignaryTestimonialElement: {
@@ -96,6 +90,12 @@ declare global {
     var HTMLDesingarySlideshowElement: {
         prototype: HTMLDesingarySlideshowElement;
         new (): HTMLDesingarySlideshowElement;
+    };
+    interface HTMLDesingaryTestElement extends Components.DesingaryTest, HTMLStencilElement {
+    }
+    var HTMLDesingaryTestElement: {
+        prototype: HTMLDesingaryTestElement;
+        new (): HTMLDesingaryTestElement;
     };
     interface HTMLExampleComponentElement extends Components.ExampleComponent, HTMLStencilElement {
     }
@@ -115,9 +115,9 @@ declare global {
         "designary-contact2": HTMLDesignaryContact2Element;
         "designary-employee": HTMLDesignaryEmployeeElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
-        "designary-slider": HTMLDesignarySliderElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
         "desingary-slideshow": HTMLDesingarySlideshowElement;
+        "desingary-test": HTMLDesingaryTestElement;
         "example-component": HTMLExampleComponentElement;
         "my-component": HTMLMyComponentElement;
     }
@@ -136,8 +136,6 @@ declare namespace LocalJSX {
     interface DesignaryGreyContainer {
         "containerTitle"?: string;
     }
-    interface DesignarySlider {
-    }
     interface DesignaryTestimonial {
         "brand"?: string;
         "person"?: string;
@@ -145,6 +143,8 @@ declare namespace LocalJSX {
     }
     interface DesingarySlideshow {
         "containerTitle"?: string;
+    }
+    interface DesingaryTest {
     }
     interface ExampleComponent {
         "exampleProp"?: string;
@@ -170,9 +170,9 @@ declare namespace LocalJSX {
         "designary-contact2": DesignaryContact2;
         "designary-employee": DesignaryEmployee;
         "designary-grey-container": DesignaryGreyContainer;
-        "designary-slider": DesignarySlider;
         "designary-testimonial": DesignaryTestimonial;
         "desingary-slideshow": DesingarySlideshow;
+        "desingary-test": DesingaryTest;
         "example-component": ExampleComponent;
         "my-component": MyComponent;
     }
@@ -186,9 +186,9 @@ declare module "@stencil/core" {
             "designary-contact2": LocalJSX.DesignaryContact2 & JSXBase.HTMLAttributes<HTMLDesignaryContact2Element>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
-            "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
             "desingary-slideshow": LocalJSX.DesingarySlideshow & JSXBase.HTMLAttributes<HTMLDesingarySlideshowElement>;
+            "desingary-test": LocalJSX.DesingaryTest & JSXBase.HTMLAttributes<HTMLDesingaryTestElement>;
             "example-component": LocalJSX.ExampleComponent & JSXBase.HTMLAttributes<HTMLExampleComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }

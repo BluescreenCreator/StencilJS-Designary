@@ -261,6 +261,7 @@
   width: 290px;
 }
 .sign-up {
+  display: inline-block;
   align-items: center;
   background-color: #373737;
   border-radius: 24px;
