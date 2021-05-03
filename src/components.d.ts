@@ -8,6 +8,9 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface DesignaryButton {
     }
+    interface DesignaryCards {
+        
+    }
     interface DesignaryContact {
         "containerTitle": string;
     }
