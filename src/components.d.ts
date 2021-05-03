@@ -8,6 +8,8 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface DesignaryButton {
     }
+    interface DesignaryCards {
+    }
     interface DesignaryContact {
         "containerTitle": string;
     }
@@ -16,8 +18,12 @@ export namespace Components {
     interface DesignaryEmployee {
         "test": String;
     }
+    interface DesignaryFooter {
+    }
     interface DesignaryGreyContainer {
         "containerTitle": string;
+    }
+    interface DesignaryHeaderHero_teaser {
     }
     interface DesignaryTestimonial {
         "brand": string;
@@ -55,6 +61,12 @@ declare global {
         prototype: HTMLDesignaryButtonElement;
         new (): HTMLDesignaryButtonElement;
     };
+    interface HTMLDesignaryCardsElement extends Components.DesignaryCards, HTMLStencilElement {
+    }
+    var HTMLDesignaryCardsElement: {
+        prototype: HTMLDesignaryCardsElement;
+        new (): HTMLDesignaryCardsElement;
+    };
     interface HTMLDesignaryContactElement extends Components.DesignaryContact, HTMLStencilElement {
     }
     var HTMLDesignaryContactElement: {
@@ -73,11 +85,23 @@ declare global {
         prototype: HTMLDesignaryEmployeeElement;
         new (): HTMLDesignaryEmployeeElement;
     };
+    interface HTMLDesignaryFooterElement extends Components.DesignaryFooter, HTMLStencilElement {
+    }
+    var HTMLDesignaryFooterElement: {
+        prototype: HTMLDesignaryFooterElement;
+        new (): HTMLDesignaryFooterElement;
+    };
     interface HTMLDesignaryGreyContainerElement extends Components.DesignaryGreyContainer, HTMLStencilElement {
     }
     var HTMLDesignaryGreyContainerElement: {
         prototype: HTMLDesignaryGreyContainerElement;
         new (): HTMLDesignaryGreyContainerElement;
+    };
+    interface HTMLDesignaryHeaderHero_teaserElement extends Components.DesignaryHeaderHero_teaser, HTMLStencilElement {
+    }
+    var HTMLDesignaryHeaderHero_teaserElement: {
+        prototype: HTMLDesignaryHeaderHero_teaserElement;
+        new (): HTMLDesignaryHeaderHero_teaserElement;
     };
     interface HTMLDesignaryTestimonialElement extends Components.DesignaryTestimonial, HTMLStencilElement {
     }
@@ -111,10 +135,13 @@ declare global {
     };
     interface HTMLElementTagNameMap {
         "designary-button": HTMLDesignaryButtonElement;
+        "designary-cards": HTMLDesignaryCardsElement;
         "designary-contact": HTMLDesignaryContactElement;
         "designary-contact2": HTMLDesignaryContact2Element;
         "designary-employee": HTMLDesignaryEmployeeElement;
+        "designary-footer": HTMLDesignaryFooterElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
+        "designary-header-hero_teaser": HTMLDesignaryHeaderHero_teaserElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
         "desingary-slideshow": HTMLDesingarySlideshowElement;
         "desingary-test": HTMLDesingaryTestElement;
@@ -125,6 +152,8 @@ declare global {
 declare namespace LocalJSX {
     interface DesignaryButton {
     }
+    interface DesignaryCards {
+    }
     interface DesignaryContact {
         "containerTitle"?: string;
     }
@@ -133,8 +162,12 @@ declare namespace LocalJSX {
     interface DesignaryEmployee {
         "test"?: String;
     }
+    interface DesignaryFooter {
+    }
     interface DesignaryGreyContainer {
         "containerTitle"?: string;
+    }
+    interface DesignaryHeaderHero_teaser {
     }
     interface DesignaryTestimonial {
         "brand"?: string;
@@ -166,10 +199,13 @@ declare namespace LocalJSX {
     }
     interface IntrinsicElements {
         "designary-button": DesignaryButton;
+        "designary-cards": DesignaryCards;
         "designary-contact": DesignaryContact;
         "designary-contact2": DesignaryContact2;
         "designary-employee": DesignaryEmployee;
+        "designary-footer": DesignaryFooter;
         "designary-grey-container": DesignaryGreyContainer;
+        "designary-header-hero_teaser": DesignaryHeaderHero_teaser;
         "designary-testimonial": DesignaryTestimonial;
         "desingary-slideshow": DesingarySlideshow;
         "desingary-test": DesingaryTest;
@@ -182,10 +218,13 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "designary-button": LocalJSX.DesignaryButton & JSXBase.HTMLAttributes<HTMLDesignaryButtonElement>;
+            "designary-cards": LocalJSX.DesignaryCards & JSXBase.HTMLAttributes<HTMLDesignaryCardsElement>;
             "designary-contact": LocalJSX.DesignaryContact & JSXBase.HTMLAttributes<HTMLDesignaryContactElement>;
             "designary-contact2": LocalJSX.DesignaryContact2 & JSXBase.HTMLAttributes<HTMLDesignaryContact2Element>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
+            "designary-footer": LocalJSX.DesignaryFooter & JSXBase.HTMLAttributes<HTMLDesignaryFooterElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
+            "designary-header-hero_teaser": LocalJSX.DesignaryHeaderHero_teaser & JSXBase.HTMLAttributes<HTMLDesignaryHeaderHero_teaserElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
             "desingary-slideshow": LocalJSX.DesingarySlideshow & JSXBase.HTMLAttributes<HTMLDesingarySlideshowElement>;
             "desingary-test": LocalJSX.DesingaryTest & JSXBase.HTMLAttributes<HTMLDesingaryTestElement>;
