@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface DesignaryButton {
+    }
     interface DesignaryContact {
         "containerTitle": string;
     }
@@ -47,6 +49,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLDesignaryButtonElement extends Components.DesignaryButton, HTMLStencilElement {
+    }
+    var HTMLDesignaryButtonElement: {
+        prototype: HTMLDesignaryButtonElement;
+        new (): HTMLDesignaryButtonElement;
+    };
     interface HTMLDesignaryContactElement extends Components.DesignaryContact, HTMLStencilElement {
     }
     var HTMLDesignaryContactElement: {
@@ -102,6 +110,7 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "designary-button": HTMLDesignaryButtonElement;
         "designary-contact": HTMLDesignaryContactElement;
         "designary-contact2": HTMLDesignaryContact2Element;
         "designary-employee": HTMLDesignaryEmployeeElement;
@@ -114,6 +123,8 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface DesignaryButton {
+    }
     interface DesignaryContact {
         "containerTitle"?: string;
     }
@@ -154,6 +165,7 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+        "designary-button": DesignaryButton;
         "designary-contact": DesignaryContact;
         "designary-contact2": DesignaryContact2;
         "designary-employee": DesignaryEmployee;
@@ -169,6 +181,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "designary-button": LocalJSX.DesignaryButton & JSXBase.HTMLAttributes<HTMLDesignaryButtonElement>;
             "designary-contact": LocalJSX.DesignaryContact & JSXBase.HTMLAttributes<HTMLDesignaryContactElement>;
             "designary-contact2": LocalJSX.DesignaryContact2 & JSXBase.HTMLAttributes<HTMLDesignaryContact2Element>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
