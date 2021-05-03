@@ -24,13 +24,8 @@ export class DesignaryGallery {
         <img src="/src/bilder/nebel.jpg" alt="images" width="267" height="267"/>
         <img src="/src/bilder/wald.jpg" alt="images" width="267" height="267"/>
         <img src="/src/bilder/fuesse.jpg" alt="images" width="267" height="267"/>
-        <span id="dots"> </span><span id="more">
-            <img src="/src/bilder/blatt.jpg" alt="images" width="267" height="267"/>
-            <img src="/src/bilder/frau.jpg" alt="images" width="267" height="267"/>
-            <img src="/src/bilder/tunnel.jpg" alt="images" width="267" height="267"/>
-            <img src="/src/bilder/rauch2.jpg" alt="images" width="267" height="267"/>
-            <img src="/src/bilder/swan.jpg" alt="images" width="267" height="267"/>
-            <img src="/src/bilder/tauchen.jpg" alt="images" width="267" height="267"/>
+        <span id="more">
+            
         </span></p>
 </div>
       </Host>
