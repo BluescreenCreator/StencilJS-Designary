@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface DesignaryCards {
+    }
     interface DesignaryContact {
         "containerTitle": string;
     }
@@ -22,8 +24,6 @@ export namespace Components {
     interface DesignaryTestimonial {
         "person": string;
         "text": string;
-    }
-    interface DesigneryCards {
     }
     interface ExampleComponent {
         "exampleProp": string;
@@ -45,6 +45,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLDesignaryCardsElement extends Components.DesignaryCards, HTMLStencilElement {
+    }
+    var HTMLDesignaryCardsElement: {
+        prototype: HTMLDesignaryCardsElement;
+        new (): HTMLDesignaryCardsElement;
+    };
     interface HTMLDesignaryContactElement extends Components.DesignaryContact, HTMLStencilElement {
     }
     var HTMLDesignaryContactElement: {
@@ -81,12 +87,6 @@ declare global {
         prototype: HTMLDesignaryTestimonialElement;
         new (): HTMLDesignaryTestimonialElement;
     };
-    interface HTMLDesigneryCardsElement extends Components.DesigneryCards, HTMLStencilElement {
-    }
-    var HTMLDesigneryCardsElement: {
-        prototype: HTMLDesigneryCardsElement;
-        new (): HTMLDesigneryCardsElement;
-    };
     interface HTMLExampleComponentElement extends Components.ExampleComponent, HTMLStencilElement {
     }
     var HTMLExampleComponentElement: {
@@ -100,18 +100,20 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "designary-cards": HTMLDesignaryCardsElement;
         "designary-contact": HTMLDesignaryContactElement;
         "designary-contact2": HTMLDesignaryContact2Element;
         "designary-employee": HTMLDesignaryEmployeeElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-slider": HTMLDesignarySliderElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
-        "designery-cards": HTMLDesigneryCardsElement;
         "example-component": HTMLExampleComponentElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface DesignaryCards {
+    }
     interface DesignaryContact {
         "containerTitle"?: string;
     }
@@ -128,8 +130,6 @@ declare namespace LocalJSX {
     interface DesignaryTestimonial {
         "person"?: string;
         "text"?: string;
-    }
-    interface DesigneryCards {
     }
     interface ExampleComponent {
         "exampleProp"?: string;
@@ -150,13 +150,13 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+        "designary-cards": DesignaryCards;
         "designary-contact": DesignaryContact;
         "designary-contact2": DesignaryContact2;
         "designary-employee": DesignaryEmployee;
         "designary-grey-container": DesignaryGreyContainer;
         "designary-slider": DesignarySlider;
         "designary-testimonial": DesignaryTestimonial;
-        "designery-cards": DesigneryCards;
         "example-component": ExampleComponent;
         "my-component": MyComponent;
     }
@@ -165,13 +165,13 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "designary-cards": LocalJSX.DesignaryCards & JSXBase.HTMLAttributes<HTMLDesignaryCardsElement>;
             "designary-contact": LocalJSX.DesignaryContact & JSXBase.HTMLAttributes<HTMLDesignaryContactElement>;
             "designary-contact2": LocalJSX.DesignaryContact2 & JSXBase.HTMLAttributes<HTMLDesignaryContact2Element>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
-            "designery-cards": LocalJSX.DesigneryCards & JSXBase.HTMLAttributes<HTMLDesigneryCardsElement>;
             "example-component": LocalJSX.ExampleComponent & JSXBase.HTMLAttributes<HTMLExampleComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
