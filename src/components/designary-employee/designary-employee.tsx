@@ -21,7 +21,7 @@ export class DesignaryEmployee {
       <Host>
         <div class="employee-container">
           <div class="image">
-            <img src={"../src/icons/"+this.imageurl}></img>
+            <img src={this.imageurl} alt={this.name}></img>
           </div>
           <div class="text-container">
             <div class="name-container">{this.name}</div>
