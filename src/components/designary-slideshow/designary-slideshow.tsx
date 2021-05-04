@@ -72,7 +72,7 @@ export class DesignarySlideshow {
                       <div class="slide slide_4">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide1.png" class="picture"></img>
+                              <img src="src/bilder/slide2.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>UX-Design</h2>
