@@ -1,7 +1,7 @@
 :host {
   display: block;
 }
-.button {
+/* .button {
   align-items: flex-end;
   background-color: #34ffc8;
   border-radius: 1000px;
@@ -12,8 +12,14 @@
   margin-top: 5px;
   min-width: 328px;
   padding: 11.5px 145px;
-}
+} */
 
 img {
-  padding: 5px;
+  padding: 3px;
+}
+p {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin: 20px;
 }
