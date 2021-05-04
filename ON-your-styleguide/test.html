@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/dist/stencil-starter-on/stencil-starter-on.esm.js" type="module"></script>
+    <link rel="stylesheet" href="/dist/stencil-starter-on/stencil-starter-on.css" />
+    <title>unser design guide</title>
+    <script type="text/javascript" src="/ON-your-styleguide/script.js" defer></script>
+</head>
+
+<body>
+    
+    
+    <designary-slideshow></designary-slideshow> 
+    <designary-contact></designary-contact>
+    <designary-gallery></designary-gallery>
+    <designary-cards></designary-cards>
+
+    <designary-grey-container container-title="What our Customers say">
+        <designary-testimonial slot="first-component" text="Ich bin ein Test-Testimonial" person="A Person" brand="A Brand"></designary-testimonial>
+        <designary-testimonial slot="second-component" text="Ich bin ein Test-Testimonial" person="A Person" brand="A Brand"></designary-testimonial>
+    </designary-grey-container>
+    
+    <designary-employee-container container-title="Who we are">
+        <designary-employee slot="first-component" name="Celine Rippl" job="UI-Expert" imageurl="src/bilder/surfer.jpg"></designary-employee>
+        <designary-employee slot="second-component" name="Fabienne Nieft" job="Design" imageurl="src/bilder/surfer.jpg"></designary-employee>
+        <designary-employee slot="third-component" name="Selina Negele" job="Design" imageurl="src/bilder/surfer.jpg"></designary-employee>
+        <designary-employee slot="fourth-component" name="René Reipöler" job="UI-Expert" imageurl="src/bilder/surfer.jpg"></designary-employee>
+        <designary-employee slot="fifth-component" name="Melissa Vela" job="Customer Research" imageurl="src/bilder/surfer.jpg"></designary-employee>
+    </designary-employee-container>
+
+</body>
+
+</html>
