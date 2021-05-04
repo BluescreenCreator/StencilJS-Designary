@@ -3,7 +3,6 @@
 }
 
 .container {
-  display: flex;
   justify-content: center;
   align-items: center;
   
@@ -32,6 +31,9 @@
 
 .row {
   margin: 0 -5px;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .row:after {
