@@ -3,6 +3,8 @@
 }
 
 .contact {
+  display: inline-block;
+  align-self: center;
   width: 450px;
   height: 500px;
   background-color: #353535;
