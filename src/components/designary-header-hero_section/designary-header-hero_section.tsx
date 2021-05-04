@@ -19,7 +19,7 @@ export class DesignaryHeaderHero_section {
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Solutions</a></li>
                 <li><img src="/src/bilder/search_icon.png" class="search" /></li>
-                  <button type="button"><a href="#" class="contact">Contact</a></button>
+                <button type="button"><a href="#" class="contact">Contact</a></button>
               </ul>
             </nav>
           </div>
