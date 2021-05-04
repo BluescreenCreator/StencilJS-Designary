@@ -26,12 +26,11 @@ export class DesignarySlideshow {
                             <div class="text">
                             <h2>Web-Design</h2>
                             <br></br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                            <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
-                            <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br></br>
-                            <br></br>
-                            <p>Read more</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <div class="readmore">Read more</div>
                         </div>
                         </div>   
                       </div>
@@ -43,12 +42,11 @@ export class DesignarySlideshow {
                             <div class="text">
                             <h2>Logo-Design</h2>
                             <br></br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                            <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
-                            <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br></br>
-                            <br></br>
-                            <p>Read more</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <div class="readmore">Read more</div>
                             </div>
                         </div>
                       </div>
@@ -60,12 +58,11 @@ export class DesignarySlideshow {
                             <div class="text">
                             <h2>Banner-Ads</h2>
                             <br></br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                            <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
-                            <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br></br>
-                            <br></br>
-                            <p>Read more</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <div class="readmore">Read more</div>
                             </div>
                         </div>
                       </div>
@@ -77,12 +74,11 @@ export class DesignarySlideshow {
                             <div class="text">
                             <h2>UX-Design</h2>
                             <br></br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-                            <p>tempor incididunt ut labore et dolore magna aliqua erat, sed diam</p>
-                            <p>voluptua. At vero eos et accusam et justo duo.</p>
-                            <br></br>
-                            <br></br>
-                            <p>Read more</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <div class="readmore">Read more</div>
                             </div>
                         </div>
                       </div>
@@ -95,6 +91,12 @@ export class DesignarySlideshow {
                 <label htmlFor="slide3"></label>
                 <label htmlFor="slide4"></label>
             </div>
+            <div id="bullets">
+                <label htmlfor="slide1"></label>
+                <label htmlfor="slide2"></label>
+                <label htmlfor="slide3"></label>
+                <label htmlfor="slide4"></label>
+          </div>
           </div>
       </Host>
     );

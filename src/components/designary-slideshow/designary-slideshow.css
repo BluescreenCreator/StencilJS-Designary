@@ -11,7 +11,7 @@ h2 {
 .slide-content img {
   display: block;
   position: relative;
-  width: 160px;
+  width: 180px;
   float: left;
   padding-left: 50px;
   padding-top: 60px;
@@ -20,19 +20,27 @@ h2 {
 .slide-content .text {
   display: block;
   position: relative;
-  width: 550px;
+  width: 1100px;
   float: right;
-  padding-left: 240px;
-  margin-top: -160px;
+  padding-left: 260px;
+  margin-top: -180px;
 }
 
 p {
   font-family: 'Lato';
+  font-size: 1
+  margin-top: 20px;
 }
 
+.readmore {
+  font-family: 'Lato';
+  font-weight: heavy;
+  font-size: 13px;
+  margin-top: 50px;
+}
 #slider {
   margin: 0 auto;
-  width: 800px;
+  width: 1400px;
   max-width: 100%;
 }
 #slider input[type='radio'] {
@@ -122,6 +130,24 @@ p {
   float: left;
   margin: 0 0 0 -50px;
   display: block;
+}
+#bullets {
+  margin: 150px 0 0;
+  text-align: center;
+}
+#bullets label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #212121;
+  margin: 0 10px;
+}
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+  background: #34ffc8;
 }
 @media screen and (max-width: 900px) {
   #slide1:checked ~ #controls label:nth-child(2),
