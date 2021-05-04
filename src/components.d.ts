@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface DesignaryBlauContainer {
+    }
     interface DesignaryButton {
     }
     interface DesignaryCards {
@@ -32,6 +34,8 @@ export namespace Components {
         "containerTitle": string;
     }
     interface DesignaryHeaderHero_section {
+    }
+    interface DesignarySection {
     }
     interface DesignarySlider {
     }
@@ -62,6 +66,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLDesignaryBlauContainerElement extends Components.DesignaryBlauContainer, HTMLStencilElement {
+    }
+    var HTMLDesignaryBlauContainerElement: {
+        prototype: HTMLDesignaryBlauContainerElement;
+        new (): HTMLDesignaryBlauContainerElement;
+    };
     interface HTMLDesignaryButtonElement extends Components.DesignaryButton, HTMLStencilElement {
     }
     var HTMLDesignaryButtonElement: {
@@ -116,6 +126,12 @@ declare global {
         prototype: HTMLDesignaryHeaderHero_sectionElement;
         new (): HTMLDesignaryHeaderHero_sectionElement;
     };
+    interface HTMLDesignarySectionElement extends Components.DesignarySection, HTMLStencilElement {
+    }
+    var HTMLDesignarySectionElement: {
+        prototype: HTMLDesignarySectionElement;
+        new (): HTMLDesignarySectionElement;
+    };
     interface HTMLDesignarySliderElement extends Components.DesignarySlider, HTMLStencilElement {
     }
     var HTMLDesignarySliderElement: {
@@ -147,6 +163,7 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "designary-blau-container": HTMLDesignaryBlauContainerElement;
         "designary-button": HTMLDesignaryButtonElement;
         "designary-cards": HTMLDesignaryCardsElement;
         "designary-contact": HTMLDesignaryContactElement;
@@ -156,6 +173,7 @@ declare global {
         "designary-gallery": HTMLDesignaryGalleryElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-header-hero_section": HTMLDesignaryHeaderHero_sectionElement;
+        "designary-section": HTMLDesignarySectionElement;
         "designary-slider": HTMLDesignarySliderElement;
         "designary-slideshow": HTMLDesignarySlideshowElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
@@ -164,6 +182,8 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface DesignaryBlauContainer {
+    }
     interface DesignaryButton {
     }
     interface DesignaryCards {
@@ -190,6 +210,8 @@ declare namespace LocalJSX {
         "containerTitle"?: string;
     }
     interface DesignaryHeaderHero_section {
+    }
+    interface DesignarySection {
     }
     interface DesignarySlider {
     }
@@ -219,6 +241,7 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+        "designary-blau-container": DesignaryBlauContainer;
         "designary-button": DesignaryButton;
         "designary-cards": DesignaryCards;
         "designary-contact": DesignaryContact;
@@ -228,6 +251,7 @@ declare namespace LocalJSX {
         "designary-gallery": DesignaryGallery;
         "designary-grey-container": DesignaryGreyContainer;
         "designary-header-hero_section": DesignaryHeaderHero_section;
+        "designary-section": DesignarySection;
         "designary-slider": DesignarySlider;
         "designary-slideshow": DesignarySlideshow;
         "designary-testimonial": DesignaryTestimonial;
@@ -239,6 +263,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "designary-blau-container": LocalJSX.DesignaryBlauContainer & JSXBase.HTMLAttributes<HTMLDesignaryBlauContainerElement>;
             "designary-button": LocalJSX.DesignaryButton & JSXBase.HTMLAttributes<HTMLDesignaryButtonElement>;
             "designary-cards": LocalJSX.DesignaryCards & JSXBase.HTMLAttributes<HTMLDesignaryCardsElement>;
             "designary-contact": LocalJSX.DesignaryContact & JSXBase.HTMLAttributes<HTMLDesignaryContactElement>;
@@ -248,6 +273,7 @@ declare module "@stencil/core" {
             "designary-gallery": LocalJSX.DesignaryGallery & JSXBase.HTMLAttributes<HTMLDesignaryGalleryElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-header-hero_section": LocalJSX.DesignaryHeaderHero_section & JSXBase.HTMLAttributes<HTMLDesignaryHeaderHero_sectionElement>;
+            "designary-section": LocalJSX.DesignarySection & JSXBase.HTMLAttributes<HTMLDesignarySectionElement>;
             "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-slideshow": LocalJSX.DesignarySlideshow & JSXBase.HTMLAttributes<HTMLDesignarySlideshowElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
