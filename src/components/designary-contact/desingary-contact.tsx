@@ -12,7 +12,6 @@ export class DesignaryContact {
   render() {
       return (
           <Host>
-            <div class="sign-up">
             <div class="flex-col">
               <h1 class="title-tagh4">Get In Touch</h1>
               <div class="flex-row">
@@ -47,19 +46,6 @@ export class DesignaryContact {
               </div>
               <div class="button"><div class="label">Send</div></div>
             </div>
-            <div class="overlap-group">
-              <div class="location-pin">
-                <div class="ellipse-fillstyle2brand"></div>
-              </div>
-              <div class="circle-button">
-                <div class="icon-2">
-                  <div class="overlap-group1">
-                    <img class="line"src='src/icons/contact-icon4.png'/>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </Host>
       );
     }
