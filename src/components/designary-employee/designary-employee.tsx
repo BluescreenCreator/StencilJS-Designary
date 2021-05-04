@@ -23,13 +23,9 @@ export class DesignaryEmployee {
           <div class="image">
             <img src={"../src/icons/"+this.imageurl}></img>
           </div>
-          <div>{this.name}</div>
-          <div>{this.job}</div>
-          <h4>What describes me</h4>
-          <div>
-            <img src={"../src/icons/"+this.icon1}></img>
-            <img src={"../src/icons/"+this.icon2}></img>
-            <img src={"../src/icons/"+this.icon3}></img>
+          <div class="text-container">
+            <div class="name-container">{this.name}</div>
+            <div class="job-container">{this.job}</div>
           </div>
         </div>
       </Host>
@@ -84,4 +80,12 @@ export class DesignaryEmployee {
                 </div>
               </div>
             </div>
+          </div>
+          
+          
+           <h4>What describes me</h4>
+          <div class="img-container">
+            <img src={"../src/icons/"+this.icon1}></img>
+            <img src={"../src/icons/"+this.icon2}></img>
+            <img src={"../src/icons/"+this.icon3}></img>
           </div>*/

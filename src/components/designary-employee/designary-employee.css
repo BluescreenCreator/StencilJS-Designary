@@ -3,17 +3,43 @@
 }
 
 .employee-container {
-  border: 2px solid #34FFC8;
   padding: 10px;
+
 }
 
-.image {
+img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background-color: antiquewhite;
+  background-color: #bf34ff;
 }
 
-h4 {
-  font-size: 33px;
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.name-container {
+  font-size: 20px;
+  margin-bottom: 10px;
+  justify-self: center;
+}
+
+.job-container {
+  font-size: 20px;
+  font-weight: 500;
+  color: #212121;
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-self: center;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

@@ -13,6 +13,8 @@
 | `icon2`    | `icon-2`   |             | `string` | `undefined` |
 | `icon3`    | `icon-3`   |             | `string` | `undefined` |
 | `imageurl` | `imageurl` |             | `string` | `undefined` |
+| `job`      | `job`      |             | `string` | `undefined` |
+| `name`     | `name`     |             | `string` | `undefined` |
 
 
 ----------------------------------------------
