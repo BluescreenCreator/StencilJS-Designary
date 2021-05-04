@@ -12,7 +12,7 @@ export class DesignaryEmployeeContainer {
   render() {
     return (
       <Host>
-        <div class="grey-container">
+        <div class="employee-container">
           {this.containerTitle}
           <div class="greyline"></div>
           <div class="component-container"> 
