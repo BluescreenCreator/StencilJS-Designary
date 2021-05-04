@@ -8,8 +8,8 @@
   width: 100%;
   height: fit-content;
   padding: 90px 0px 90px 0px;
-  background-color: #212121;
-  color: #EEEEEE;
+  background-color: #34FFC8;
+  color: #212121;
   font-size: 33pt;
   font-family: 'Lato', Helvetica;
   font-weight: 500;
@@ -46,3 +46,4 @@ slot {
   justify-self: center;
   margin-bottom: 100px;
 }
+

@@ -14,7 +14,15 @@ export namespace Components {
         "containerTitle": string;
     }
     interface DesignaryEmployee {
-        "test": String;
+        "icon1": string;
+        "icon2": string;
+        "icon3": string;
+        "imageurl": string;
+        "job": string;
+        "name": string;
+    }
+    interface DesignaryEmployeeContainer {
+        "containerTitle": string;
     }
     interface DesignaryFooter {
     }
@@ -30,6 +38,7 @@ export namespace Components {
     interface DesignarySlideshow {
     }
     interface DesignaryTestimonial {
+        "brand": string;
         "person": string;
         "text": string;
     }
@@ -77,11 +86,19 @@ declare global {
         prototype: HTMLDesignaryEmployeeElement;
         new (): HTMLDesignaryEmployeeElement;
     };
+<<<<<<< HEAD
     interface HTMLDesignaryFooterElement extends Components.DesignaryFooter, HTMLStencilElement {
     }
     var HTMLDesignaryFooterElement: {
         prototype: HTMLDesignaryFooterElement;
         new (): HTMLDesignaryFooterElement;
+=======
+    interface HTMLDesignaryEmployeeContainerElement extends Components.DesignaryEmployeeContainer, HTMLStencilElement {
+    }
+    var HTMLDesignaryEmployeeContainerElement: {
+        prototype: HTMLDesignaryEmployeeContainerElement;
+        new (): HTMLDesignaryEmployeeContainerElement;
+>>>>>>> 7c8724bb48ef44eda5a0eccfdfbc2663a4961987
     };
     interface HTMLDesignaryGalleryElement extends Components.DesignaryGallery, HTMLStencilElement {
     }
@@ -136,7 +153,11 @@ declare global {
         "designary-cards": HTMLDesignaryCardsElement;
         "designary-contact": HTMLDesignaryContactElement;
         "designary-employee": HTMLDesignaryEmployeeElement;
+<<<<<<< HEAD
         "designary-footer": HTMLDesignaryFooterElement;
+=======
+        "designary-employee-container": HTMLDesignaryEmployeeContainerElement;
+>>>>>>> 7c8724bb48ef44eda5a0eccfdfbc2663a4961987
         "designary-gallery": HTMLDesignaryGalleryElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-header-hero_section": HTMLDesignaryHeaderHero_sectionElement;
@@ -156,7 +177,15 @@ declare namespace LocalJSX {
         "containerTitle"?: string;
     }
     interface DesignaryEmployee {
-        "test"?: String;
+        "icon1"?: string;
+        "icon2"?: string;
+        "icon3"?: string;
+        "imageurl"?: string;
+        "job"?: string;
+        "name"?: string;
+    }
+    interface DesignaryEmployeeContainer {
+        "containerTitle"?: string;
     }
     interface DesignaryFooter {
     }
@@ -172,6 +201,7 @@ declare namespace LocalJSX {
     interface DesignarySlideshow {
     }
     interface DesignaryTestimonial {
+        "brand"?: string;
         "person"?: string;
         "text"?: string;
     }
@@ -198,7 +228,11 @@ declare namespace LocalJSX {
         "designary-cards": DesignaryCards;
         "designary-contact": DesignaryContact;
         "designary-employee": DesignaryEmployee;
+<<<<<<< HEAD
         "designary-footer": DesignaryFooter;
+=======
+        "designary-employee-container": DesignaryEmployeeContainer;
+>>>>>>> 7c8724bb48ef44eda5a0eccfdfbc2663a4961987
         "designary-gallery": DesignaryGallery;
         "designary-grey-container": DesignaryGreyContainer;
         "designary-header-hero_section": DesignaryHeaderHero_section;
@@ -217,7 +251,11 @@ declare module "@stencil/core" {
             "designary-cards": LocalJSX.DesignaryCards & JSXBase.HTMLAttributes<HTMLDesignaryCardsElement>;
             "designary-contact": LocalJSX.DesignaryContact & JSXBase.HTMLAttributes<HTMLDesignaryContactElement>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
+<<<<<<< HEAD
             "designary-footer": LocalJSX.DesignaryFooter & JSXBase.HTMLAttributes<HTMLDesignaryFooterElement>;
+=======
+            "designary-employee-container": LocalJSX.DesignaryEmployeeContainer & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeContainerElement>;
+>>>>>>> 7c8724bb48ef44eda5a0eccfdfbc2663a4961987
             "designary-gallery": LocalJSX.DesignaryGallery & JSXBase.HTMLAttributes<HTMLDesignaryGalleryElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-header-hero_section": LocalJSX.DesignaryHeaderHero_section & JSXBase.HTMLAttributes<HTMLDesignaryHeaderHero_sectionElement>;
