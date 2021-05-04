@@ -10,7 +10,8 @@ export class DesignaryCards {
   render() {
     return (
       <Host>
-        <div class="container"></div>
+        
+        <div class="container">
         <h2 class="section-title" >Cards</h2>
         <div class="row">
           <div class="column">
@@ -32,6 +33,7 @@ export class DesignaryCards {
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p> </div>
       </div>
     </div>  
+    </div>
       </Host>
     );
   }
