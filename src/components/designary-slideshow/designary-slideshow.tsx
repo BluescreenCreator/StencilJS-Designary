@@ -21,7 +21,7 @@ export class DesignarySlideshow {
                       <div class="slide slide_1">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide1.png" class="picture"></img>
+                              <img src="src/bilder/slide1.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>Web-Design</h2>
@@ -38,7 +38,7 @@ export class DesignarySlideshow {
                       <div class="slide slide_2">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide2.png" class="picture"></img>
+                              <img src="src/bilder/slide2.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>Logo-Design</h2>
@@ -55,7 +55,7 @@ export class DesignarySlideshow {
                       <div class="slide slide_3">
                         <div class="slide-content">
                             <div class="image">
-                              <img src="slide3.png" class="picture"></img>
+                              <img src="src/bilder/slide3.png" class="picture"></img>
                             </div>
                             <div class="text">
                             <h2>Banner-Ads</h2>
