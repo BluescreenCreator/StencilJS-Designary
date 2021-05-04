@@ -2,13 +2,6 @@
   display: block;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  }
-
 .section-title{
   color: #fff;
   font-family: var(--font-family-lato);
@@ -31,6 +24,9 @@
 }
 
 .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 -5px;
 }
 
