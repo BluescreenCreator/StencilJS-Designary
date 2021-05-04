@@ -11,7 +11,7 @@ img {
   height: 180px;
   width: 180px;
   border-radius: 50%;
-  background-color: #bf34ff;
+  border: #34FFC8 solid 2px;
 }
 
 .text-container {
@@ -19,6 +19,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  color: #34FFC8;
 }
 
 .name-container {
