@@ -1,3 +1,19 @@
 :host {
   display: block;
 }
+
+.employee-container {
+  border: 2px solid #34FFC8;
+  padding: 10px;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+}
+
+h4 {
+  font-size: 33px;
+}

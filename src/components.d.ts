@@ -20,6 +20,8 @@ export namespace Components {
         "icon2": string;
         "icon3": string;
         "imageurl": string;
+        "job": string;
+        "name": string;
     }
     interface DesignaryFooter {
     }
@@ -176,6 +178,8 @@ declare namespace LocalJSX {
         "icon2"?: string;
         "icon3"?: string;
         "imageurl"?: string;
+        "job"?: string;
+        "name"?: string;
     }
     interface DesignaryFooter {
     }

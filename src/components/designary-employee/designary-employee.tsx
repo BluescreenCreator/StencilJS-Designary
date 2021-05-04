@@ -7,6 +7,8 @@ import { Component, Host, h, Prop } from '@stencil/core';
 })
 export class DesignaryEmployee {
 
+  @Prop() name: string;
+  @Prop() job: string;
   @Prop() imageurl: string;
   @Prop() icon1: string;
   @Prop() icon2: string;
@@ -18,15 +20,16 @@ export class DesignaryEmployee {
     return (
       <Host>
         <div class="employee-container">
-          <img src={this.imageurl}></img>
-          <h3>Name</h3>
-          <p></p>
-          <p></p>
-          <h3>What describes me</h3>
+          <div class="image">
+            <img src={"../src/icons/"+this.imageurl}></img>
+          </div>
+          <div>{this.name}</div>
+          <div>{this.job}</div>
+          <h4>What describes me</h4>
           <div>
-            <img class="icons" src={this.icon1}></img>
-            <img class="icons" src={this.icon2}></img>
-            <img class="icons" src={this.icon3}></img>
+            <img src={"../src/icons/"+this.icon1}></img>
+            <img src={"../src/icons/"+this.icon2}></img>
+            <img src={"../src/icons/"+this.icon3}></img>
           </div>
         </div>
       </Host>
