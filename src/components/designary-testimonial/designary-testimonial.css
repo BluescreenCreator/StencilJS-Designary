@@ -6,6 +6,8 @@
   
   width: 600px;
   margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -16,7 +18,7 @@
   height: 300px;
   width: 600px;
   max-width: 600px;
-  font-size: 24pt;
+  font-size: 20pt;
 }
 
 .greenline {
