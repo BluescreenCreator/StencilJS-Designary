@@ -12,7 +12,7 @@ export class DesignaryButton {
     return (
       <Host>
         <div class="button1">
-        <button type="button"><a href="#">Contact</a></button>
+        <button type="button"><a href="#">Kontakt</a></button>
         </div>
         <br></br>
         <div class="button2">
