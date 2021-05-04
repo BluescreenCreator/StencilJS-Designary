@@ -10,7 +10,7 @@ export class DesignaryGallery {
   render() {
     return (
       <Host>
-            <div class="gallery"> 
+            <div class="gallery">
         <p>
              <img src="/src/bilder/meer.jpg" alt="Meer" width="267" height="267"/> 
         <img src="/src/bilder/surfer.jpg" alt="Surfer" width="267" height="267"/>
