@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*Lato regular*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'); /*Raleway light*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); /*Raleway bold>*/
+
+:host {
+  display: block;
+}
+
+footer {
+  background-color: #34FFC8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer nav {
+  width: 20%;
+}
+
+.wrapper {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 38px;
+  width: 100%;
+}
+
+div.footerLeft {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  width: 54%;
+  display: inline-block;
+
+}
+
+.generalInformation {
+  list-style: none;
+}
+
+div.footerMiddle1, div.footerMiddle2 {
+  position: relative;
+  width: 15%;
+  display: inline-block;
+  bottom: 50px;
+  padding-right: -40px;
+}
+
+ul.information {
+  padding: 0;
+  list-style: none;
+}
+
+div.footerRight {
+  position: relative;
+  width: 15%;
+  display: inline-block;
+  align-self: right;
+  bottom: 50px;
+}
+
+ul.resources {
+  padding: 0;
+  list-style: none;
+}
+
+.help {
+  font-family: 'Lato';
+  color: #34FFC8;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.socialMediaIcons {
+  padding-top: 20px;
+}
