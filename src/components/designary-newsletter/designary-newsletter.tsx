@@ -10,7 +10,12 @@ export class DesignaryNewsletter {
   render() {
     return (
       <Host>
-        <slot></slot>
+        <div class="employee-container">
+          Newsletter
+          <div class="component-container"> 
+          
+          </div>
+        </div>
       </Host>
     );
   }
