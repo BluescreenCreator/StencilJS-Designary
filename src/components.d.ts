@@ -14,7 +14,15 @@ export namespace Components {
         "containerTitle": string;
     }
     interface DesignaryEmployee {
-        "test": String;
+        "icon1": string;
+        "icon2": string;
+        "icon3": string;
+        "imageurl": string;
+        "job": string;
+        "name": string;
+    }
+    interface DesignaryEmployeeContainer {
+        "containerTitle": string;
     }
     interface DesignaryGallery {
     }
@@ -26,6 +34,7 @@ export namespace Components {
     interface DesignarySlideshow {
     }
     interface DesignaryTestimonial {
+        "brand": string;
         "person": string;
         "text": string;
     }
@@ -72,6 +81,12 @@ declare global {
     var HTMLDesignaryEmployeeElement: {
         prototype: HTMLDesignaryEmployeeElement;
         new (): HTMLDesignaryEmployeeElement;
+    };
+    interface HTMLDesignaryEmployeeContainerElement extends Components.DesignaryEmployeeContainer, HTMLStencilElement {
+    }
+    var HTMLDesignaryEmployeeContainerElement: {
+        prototype: HTMLDesignaryEmployeeContainerElement;
+        new (): HTMLDesignaryEmployeeContainerElement;
     };
     interface HTMLDesignaryGalleryElement extends Components.DesignaryGallery, HTMLStencilElement {
     }
@@ -120,6 +135,7 @@ declare global {
         "designary-cards": HTMLDesignaryCardsElement;
         "designary-contact": HTMLDesignaryContactElement;
         "designary-employee": HTMLDesignaryEmployeeElement;
+        "designary-employee-container": HTMLDesignaryEmployeeContainerElement;
         "designary-gallery": HTMLDesignaryGalleryElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-slider": HTMLDesignarySliderElement;
@@ -138,7 +154,15 @@ declare namespace LocalJSX {
         "containerTitle"?: string;
     }
     interface DesignaryEmployee {
-        "test"?: String;
+        "icon1"?: string;
+        "icon2"?: string;
+        "icon3"?: string;
+        "imageurl"?: string;
+        "job"?: string;
+        "name"?: string;
+    }
+    interface DesignaryEmployeeContainer {
+        "containerTitle"?: string;
     }
     interface DesignaryGallery {
     }
@@ -150,6 +174,7 @@ declare namespace LocalJSX {
     interface DesignarySlideshow {
     }
     interface DesignaryTestimonial {
+        "brand"?: string;
         "person"?: string;
         "text"?: string;
     }
@@ -176,6 +201,7 @@ declare namespace LocalJSX {
         "designary-cards": DesignaryCards;
         "designary-contact": DesignaryContact;
         "designary-employee": DesignaryEmployee;
+        "designary-employee-container": DesignaryEmployeeContainer;
         "designary-gallery": DesignaryGallery;
         "designary-grey-container": DesignaryGreyContainer;
         "designary-slider": DesignarySlider;
@@ -193,6 +219,7 @@ declare module "@stencil/core" {
             "designary-cards": LocalJSX.DesignaryCards & JSXBase.HTMLAttributes<HTMLDesignaryCardsElement>;
             "designary-contact": LocalJSX.DesignaryContact & JSXBase.HTMLAttributes<HTMLDesignaryContactElement>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
+            "designary-employee-container": LocalJSX.DesignaryEmployeeContainer & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeContainerElement>;
             "designary-gallery": LocalJSX.DesignaryGallery & JSXBase.HTMLAttributes<HTMLDesignaryGalleryElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
