@@ -16,7 +16,10 @@ export namespace Components {
     interface DesignaryContact2 {
     }
     interface DesignaryEmployee {
-        "test": String;
+        "icon1": string;
+        "icon2": string;
+        "icon3": string;
+        "imageurl": string;
     }
     interface DesignaryFooter {
     }
@@ -169,7 +172,10 @@ declare namespace LocalJSX {
     interface DesignaryContact2 {
     }
     interface DesignaryEmployee {
-        "test"?: String;
+        "icon1"?: string;
+        "icon2"?: string;
+        "icon3"?: string;
+        "imageurl"?: string;
     }
     interface DesignaryFooter {
     }
