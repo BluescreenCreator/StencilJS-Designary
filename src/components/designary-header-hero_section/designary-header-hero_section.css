@@ -90,6 +90,19 @@ nav ul li a {
   font-size: 18px;
 }
 
+nav a::after {
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #fff;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
 .designary {
   padding-right: 650px;
 }
