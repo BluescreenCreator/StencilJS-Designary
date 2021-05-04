@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+.button {
+  align-items: flex-end;
+  background-color: #34ffc8;
+  border-radius: 1000px;
+  box-shadow: 0px 8px 16px #34ffc81a;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  margin-top: 5px;
+  min-width: 328px;
+  padding: 11.5px 145px;
+}

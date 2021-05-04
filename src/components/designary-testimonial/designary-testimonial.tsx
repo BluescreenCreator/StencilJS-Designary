@@ -10,22 +10,18 @@ export class DesignaryTestimonial {
 
   @Prop() text: string;
   @Prop() person: string;
-  @Prop() brand: string;
 
   render() {
     return (
       <Host>
         <div class="testimonial-container">
           <div class="greenline"></div>
-            <div class="testimonial-main">
-              <div class="signs"></div>
-              <div class="text-container">
-                {this.text}
-              </div>
+            <div class="text-container">
+              {this.text}
             </div>
           <div class="greenline"></div>
           <div class="customer-container">
-              ~ {this.person}, {this.brand}
+              - {this.person}
           </div>
         </div>
       </Host>

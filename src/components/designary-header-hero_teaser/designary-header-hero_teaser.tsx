@@ -1,11 +1,11 @@
 import { Component, Host, h } from '@stencil/core';
 
 @Component({
-  tag: 'designary-footer',
-  styleUrl: 'designary-footer.css',
+  tag: 'designary-header-hero_teaser',
+  styleUrl: 'designary-header-hero_teaser.css',
   shadow: true,
 })
-export class DesignaryFooter {
+export class DesignaryHeaderHero_teaser {
 
   render() {
     return (

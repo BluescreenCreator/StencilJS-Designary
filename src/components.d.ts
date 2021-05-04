@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface DesignaryCards {
+    }
     interface DesignaryContact {
         "containerTitle": string;
     }
@@ -16,16 +18,21 @@ export namespace Components {
     }
     interface DesignaryFooter {
     }
+<<<<<<< HEAD
+=======
+    interface DesignaryGallery {
+    }
+>>>>>>> b3f0d1c3e5e2bf6ece46611836d9b6b3b4c48e22
     interface DesignaryGreyContainer {
         "containerTitle": string;
     }
+    interface DesignaryHeaderHero_teaser {
+    }
+    interface DesignarySlider {
+    }
     interface DesignaryTestimonial {
-        "brand": string;
         "person": string;
         "text": string;
-    }
-    interface DesingarySlideshow {
-        "containerTitle": string;
     }
     interface DesingaryTest {
     }
@@ -49,6 +56,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLDesignaryCardsElement extends Components.DesignaryCards, HTMLStencilElement {
+    }
+    var HTMLDesignaryCardsElement: {
+        prototype: HTMLDesignaryCardsElement;
+        new (): HTMLDesignaryCardsElement;
+    };
     interface HTMLDesignaryContactElement extends Components.DesignaryContact, HTMLStencilElement {
     }
     var HTMLDesignaryContactElement: {
@@ -73,23 +86,38 @@ declare global {
         prototype: HTMLDesignaryFooterElement;
         new (): HTMLDesignaryFooterElement;
     };
+<<<<<<< HEAD
+=======
+    interface HTMLDesignaryGalleryElement extends Components.DesignaryGallery, HTMLStencilElement {
+    }
+    var HTMLDesignaryGalleryElement: {
+        prototype: HTMLDesignaryGalleryElement;
+        new (): HTMLDesignaryGalleryElement;
+    };
+>>>>>>> b3f0d1c3e5e2bf6ece46611836d9b6b3b4c48e22
     interface HTMLDesignaryGreyContainerElement extends Components.DesignaryGreyContainer, HTMLStencilElement {
     }
     var HTMLDesignaryGreyContainerElement: {
         prototype: HTMLDesignaryGreyContainerElement;
         new (): HTMLDesignaryGreyContainerElement;
     };
+    interface HTMLDesignaryHeaderHero_teaserElement extends Components.DesignaryHeaderHero_teaser, HTMLStencilElement {
+    }
+    var HTMLDesignaryHeaderHero_teaserElement: {
+        prototype: HTMLDesignaryHeaderHero_teaserElement;
+        new (): HTMLDesignaryHeaderHero_teaserElement;
+    };
+    interface HTMLDesignarySliderElement extends Components.DesignarySlider, HTMLStencilElement {
+    }
+    var HTMLDesignarySliderElement: {
+        prototype: HTMLDesignarySliderElement;
+        new (): HTMLDesignarySliderElement;
+    };
     interface HTMLDesignaryTestimonialElement extends Components.DesignaryTestimonial, HTMLStencilElement {
     }
     var HTMLDesignaryTestimonialElement: {
         prototype: HTMLDesignaryTestimonialElement;
         new (): HTMLDesignaryTestimonialElement;
-    };
-    interface HTMLDesingarySlideshowElement extends Components.DesingarySlideshow, HTMLStencilElement {
-    }
-    var HTMLDesingarySlideshowElement: {
-        prototype: HTMLDesingarySlideshowElement;
-        new (): HTMLDesingarySlideshowElement;
     };
     interface HTMLDesingaryTestElement extends Components.DesingaryTest, HTMLStencilElement {
     }
@@ -110,19 +138,27 @@ declare global {
         new (): HTMLMyComponentElement;
     };
     interface HTMLElementTagNameMap {
+        "designary-cards": HTMLDesignaryCardsElement;
         "designary-contact": HTMLDesignaryContactElement;
         "designary-contact2": HTMLDesignaryContact2Element;
         "designary-employee": HTMLDesignaryEmployeeElement;
         "designary-footer": HTMLDesignaryFooterElement;
+<<<<<<< HEAD
+=======
+        "designary-gallery": HTMLDesignaryGalleryElement;
+>>>>>>> b3f0d1c3e5e2bf6ece46611836d9b6b3b4c48e22
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
+        "designary-header-hero_teaser": HTMLDesignaryHeaderHero_teaserElement;
+        "designary-slider": HTMLDesignarySliderElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
-        "desingary-slideshow": HTMLDesingarySlideshowElement;
         "desingary-test": HTMLDesingaryTestElement;
         "example-component": HTMLExampleComponentElement;
         "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
+    interface DesignaryCards {
+    }
     interface DesignaryContact {
         "containerTitle"?: string;
     }
@@ -133,16 +169,21 @@ declare namespace LocalJSX {
     }
     interface DesignaryFooter {
     }
+<<<<<<< HEAD
+=======
+    interface DesignaryGallery {
+    }
+>>>>>>> b3f0d1c3e5e2bf6ece46611836d9b6b3b4c48e22
     interface DesignaryGreyContainer {
         "containerTitle"?: string;
     }
+    interface DesignaryHeaderHero_teaser {
+    }
+    interface DesignarySlider {
+    }
     interface DesignaryTestimonial {
-        "brand"?: string;
         "person"?: string;
         "text"?: string;
-    }
-    interface DesingarySlideshow {
-        "containerTitle"?: string;
     }
     interface DesingaryTest {
     }
@@ -165,13 +206,19 @@ declare namespace LocalJSX {
         "middle"?: string;
     }
     interface IntrinsicElements {
+        "designary-cards": DesignaryCards;
         "designary-contact": DesignaryContact;
         "designary-contact2": DesignaryContact2;
         "designary-employee": DesignaryEmployee;
         "designary-footer": DesignaryFooter;
+<<<<<<< HEAD
+=======
+        "designary-gallery": DesignaryGallery;
+>>>>>>> b3f0d1c3e5e2bf6ece46611836d9b6b3b4c48e22
         "designary-grey-container": DesignaryGreyContainer;
+        "designary-header-hero_teaser": DesignaryHeaderHero_teaser;
+        "designary-slider": DesignarySlider;
         "designary-testimonial": DesignaryTestimonial;
-        "desingary-slideshow": DesingarySlideshow;
         "desingary-test": DesingaryTest;
         "example-component": ExampleComponent;
         "my-component": MyComponent;
@@ -181,13 +228,27 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "designary-cards": LocalJSX.DesignaryCards & JSXBase.HTMLAttributes<HTMLDesignaryCardsElement>;
             "designary-contact": LocalJSX.DesignaryContact & JSXBase.HTMLAttributes<HTMLDesignaryContactElement>;
             "designary-contact2": LocalJSX.DesignaryContact2 & JSXBase.HTMLAttributes<HTMLDesignaryContact2Element>;
             "designary-employee": LocalJSX.DesignaryEmployee & JSXBase.HTMLAttributes<HTMLDesignaryEmployeeElement>;
             "designary-footer": LocalJSX.DesignaryFooter & JSXBase.HTMLAttributes<HTMLDesignaryFooterElement>;
+<<<<<<< HEAD
+=======
+            "designary-gallery": LocalJSX.DesignaryGallery & JSXBase.HTMLAttributes<HTMLDesignaryGalleryElement>;
+>>>>>>> b3f0d1c3e5e2bf6ece46611836d9b6b3b4c48e22
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
+            "designary-header-hero_teaser": LocalJSX.DesignaryHeaderHero_teaser & JSXBase.HTMLAttributes<HTMLDesignaryHeaderHero_teaserElement>;
+            "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
-            "desingary-slideshow": LocalJSX.DesingarySlideshow & JSXBase.HTMLAttributes<HTMLDesingarySlideshowElement>;
+            "desingary-test": LocalJSX.DesingaryTest & JSXBase.HTMLAttributes<HTMLDesingaryTestElement>;
+            "example-component": LocalJSX.ExampleComponent & JSXBase.HTMLAttributes<HTMLExampleComponentElement>;
+            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+        }
+    }
+}
+gnarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
+            "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
             "desingary-test": LocalJSX.DesingaryTest & JSXBase.HTMLAttributes<HTMLDesingaryTestElement>;
             "example-component": LocalJSX.ExampleComponent & JSXBase.HTMLAttributes<HTMLExampleComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
