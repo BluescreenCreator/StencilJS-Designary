@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 :host {
   display: block;
 }
@@ -20,15 +21,15 @@ img{
 
 }
 h1 {
-  font-family: var(--font-family-lato);
-  font-size: var(--font-size-l);
-  font-weight: 5500;
+  font-family: 'Lato', Helvetica;
+  font-size: 28pt;
+  font-weight: 500;
   line-height: 25px;
   margin-top: 60px;
 }
 h2 {
-  font-family: var(--font-family-lato);
-  font-size: var(--font-size-m);
+  font-family: 'Lato', Helvetica;
+  font-size: 12pt;
   font-weight: 100;
   line-height: 25px;
 }
@@ -51,14 +52,14 @@ h2 {
   flex-grow: 0;
 }
 .button {
-  font-family: var(--font-family-lato);
-  font-size: var(--font-size-m);
+  font-family: 'Lato', Helvetica;
+  font-size: 10pt;
   background-color: #353535;
   border-radius: 1000px;
   box-shadow: 0px 8px 16px #34ffc81a;
   height: 48px;
   width: 200px;
-  padding: 13.5px 60px;
+  padding: 14.5px 67px;
   color: #fff;
   margin-bottom: 50px;
   margin-top: 20px;
@@ -71,8 +72,6 @@ h2 {
   border-style: solid;
 }
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300|Noto+Sans:700');
 * {
   box-sizing: border-box;
 }
