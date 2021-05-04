@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 :host {
   display: block;
 }
 .section-title {
   color: #fff;
-  font-family: var(--font-family-lato);
-  font-size: var(--font-size-l);
+  font-family: 'Lato', Helvetica;
+  font-size: 28pt;
   font-weight: 500;
   line-height: 40px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 120px;
 }
 .column {
   display: inline-block;
@@ -40,8 +41,8 @@
 
 .card {
   color: #fff;
-  font-family: var(--font-family-lato);
-  font-size: var(--font-size-m);
+  font-family: 'Lato', Helvetica;
+  font-size: 12pt;
   font-weight: 100;
   line-height: 25px;
   /* box-shadow: 0 4px 8px 0 rgba(250, 221, 221, 0.2); this adds the "card" effect */
@@ -54,8 +55,7 @@
   height: 60px;
 }
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300|Noto+Sans:700');
+
 * {
   box-sizing: border-box;
 }

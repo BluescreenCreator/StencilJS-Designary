@@ -9,7 +9,7 @@
   width: 100%;
   height: fit-content;
   padding: 90px 0px 90px 0px;
-  background-color: #373737;
+  background-color: transparent;
   color: #EEEEEE;
   font-size: 28pt;
   font-family: 'Lato', Helvetica;
@@ -28,7 +28,7 @@
   width: 80px;
   background-color: #212121;
   margin-top: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .component-container {
