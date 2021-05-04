@@ -48,7 +48,6 @@ header {
   width: 100%;
   padding-top: 10px;
   background-image: url("/src/bilder/background_picture.png");
-  height: 700px;
 }
 
 .containerHeader {
@@ -122,10 +121,6 @@ button {
   z-index: 1;
   box-shadow: 5px 5px 20px #8cfddf;
   margin-left: 40px;
-}
-
-.heroTeaser {
-  padding-top: 100px;
 }
 
 .buttonSmall {

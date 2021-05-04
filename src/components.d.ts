@@ -35,7 +35,11 @@ export namespace Components {
     }
     interface DesignaryHeaderHero_section {
     }
+<<<<<<< HEAD
     interface DesignarySection {
+=======
+    interface DesignaryNewsletter {
+>>>>>>> 48752f0ebdb07ae51ee2d50bdf5c69f0bb985bc4
     }
     interface DesignarySlider {
     }
@@ -126,11 +130,19 @@ declare global {
         prototype: HTMLDesignaryHeaderHero_sectionElement;
         new (): HTMLDesignaryHeaderHero_sectionElement;
     };
+<<<<<<< HEAD
     interface HTMLDesignarySectionElement extends Components.DesignarySection, HTMLStencilElement {
     }
     var HTMLDesignarySectionElement: {
         prototype: HTMLDesignarySectionElement;
         new (): HTMLDesignarySectionElement;
+=======
+    interface HTMLDesignaryNewsletterElement extends Components.DesignaryNewsletter, HTMLStencilElement {
+    }
+    var HTMLDesignaryNewsletterElement: {
+        prototype: HTMLDesignaryNewsletterElement;
+        new (): HTMLDesignaryNewsletterElement;
+>>>>>>> 48752f0ebdb07ae51ee2d50bdf5c69f0bb985bc4
     };
     interface HTMLDesignarySliderElement extends Components.DesignarySlider, HTMLStencilElement {
     }
@@ -173,7 +185,11 @@ declare global {
         "designary-gallery": HTMLDesignaryGalleryElement;
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-header-hero_section": HTMLDesignaryHeaderHero_sectionElement;
+<<<<<<< HEAD
         "designary-section": HTMLDesignarySectionElement;
+=======
+        "designary-newsletter": HTMLDesignaryNewsletterElement;
+>>>>>>> 48752f0ebdb07ae51ee2d50bdf5c69f0bb985bc4
         "designary-slider": HTMLDesignarySliderElement;
         "designary-slideshow": HTMLDesignarySlideshowElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
@@ -211,7 +227,11 @@ declare namespace LocalJSX {
     }
     interface DesignaryHeaderHero_section {
     }
+<<<<<<< HEAD
     interface DesignarySection {
+=======
+    interface DesignaryNewsletter {
+>>>>>>> 48752f0ebdb07ae51ee2d50bdf5c69f0bb985bc4
     }
     interface DesignarySlider {
     }
@@ -251,7 +271,11 @@ declare namespace LocalJSX {
         "designary-gallery": DesignaryGallery;
         "designary-grey-container": DesignaryGreyContainer;
         "designary-header-hero_section": DesignaryHeaderHero_section;
+<<<<<<< HEAD
         "designary-section": DesignarySection;
+=======
+        "designary-newsletter": DesignaryNewsletter;
+>>>>>>> 48752f0ebdb07ae51ee2d50bdf5c69f0bb985bc4
         "designary-slider": DesignarySlider;
         "designary-slideshow": DesignarySlideshow;
         "designary-testimonial": DesignaryTestimonial;
@@ -273,7 +297,11 @@ declare module "@stencil/core" {
             "designary-gallery": LocalJSX.DesignaryGallery & JSXBase.HTMLAttributes<HTMLDesignaryGalleryElement>;
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-header-hero_section": LocalJSX.DesignaryHeaderHero_section & JSXBase.HTMLAttributes<HTMLDesignaryHeaderHero_sectionElement>;
+<<<<<<< HEAD
             "designary-section": LocalJSX.DesignarySection & JSXBase.HTMLAttributes<HTMLDesignarySectionElement>;
+=======
+            "designary-newsletter": LocalJSX.DesignaryNewsletter & JSXBase.HTMLAttributes<HTMLDesignaryNewsletterElement>;
+>>>>>>> 48752f0ebdb07ae51ee2d50bdf5c69f0bb985bc4
             "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-slideshow": LocalJSX.DesignarySlideshow & JSXBase.HTMLAttributes<HTMLDesignarySlideshowElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;

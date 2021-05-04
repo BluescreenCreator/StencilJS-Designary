@@ -9,8 +9,8 @@
   width: 100%;
   height: fit-content;
   padding: 90px 0px 90px 0px;
-  background-color: #34FFC8;
-  color: #212121;
+  background-color: transparent;
+  color: #EEEEEE;
   font-size: 28pt;
   font-family: 'Lato', Helvetica;
   font-weight: 500;
@@ -26,9 +26,9 @@
 .greyline {
   height: 2px;
   width: 80px;
-  background-color: #32323C;
+  background-color: #212121;
   margin-top: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .component-container {

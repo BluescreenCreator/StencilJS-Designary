@@ -1,7 +1,7 @@
 :host {
   display: block;
 }
-.section-title{
+.section-title {
   color: #fff;
   font-family: var(--font-family-lato);
   font-size: var(--font-size-l);
@@ -14,12 +14,12 @@
   margin-top: 120px;
 }
 .column {
-  float: left;
+  display: inline-block;
+  align-items: center;
   width: 20%;
   padding: 40px 0px;
   margin-left: 60px;
   margin-right: 60px;
-
 }
 
 .row {
@@ -33,7 +33,7 @@
 }
 
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -50,7 +50,7 @@
   margin: 15px 0;
 }
 
-.card-icon{
+.card-icon {
   height: 60px;
 }
 

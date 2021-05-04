@@ -23,11 +23,17 @@ export class DesignaryHeaderHero_section {
               </ul>
             </nav>
           </div>
+          <br></br>
+          <br></br>
           <div class="heroTeaser">
             <h1>Design is the silent</h1>
             <h1>ambassador of your brand</h1>
             <button type="button" class="buttonSmall"><a href="#" class="contact">Contact</a></button>
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </header>
 
         <br></br>
