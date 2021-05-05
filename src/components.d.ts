@@ -37,7 +37,7 @@ export namespace Components {
     }
     interface DesignaryNewsletter {
     }
-    interface DesignarySection {
+    interface DesignaryParalax {
     }
     interface DesignarySlider {
     }
@@ -134,11 +134,11 @@ declare global {
         prototype: HTMLDesignaryNewsletterElement;
         new (): HTMLDesignaryNewsletterElement;
     };
-    interface HTMLDesignarySectionElement extends Components.DesignarySection, HTMLStencilElement {
+    interface HTMLDesignaryParalaxElement extends Components.DesignaryParalax, HTMLStencilElement {
     }
-    var HTMLDesignarySectionElement: {
-        prototype: HTMLDesignarySectionElement;
-        new (): HTMLDesignarySectionElement;
+    var HTMLDesignaryParalaxElement: {
+        prototype: HTMLDesignaryParalaxElement;
+        new (): HTMLDesignaryParalaxElement;
     };
     interface HTMLDesignarySliderElement extends Components.DesignarySlider, HTMLStencilElement {
     }
@@ -182,7 +182,7 @@ declare global {
         "designary-grey-container": HTMLDesignaryGreyContainerElement;
         "designary-header-hero_section": HTMLDesignaryHeaderHero_sectionElement;
         "designary-newsletter": HTMLDesignaryNewsletterElement;
-        "designary-section": HTMLDesignarySectionElement;
+        "designary-paralax": HTMLDesignaryParalaxElement;
         "designary-slider": HTMLDesignarySliderElement;
         "designary-slideshow": HTMLDesignarySlideshowElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
@@ -222,7 +222,7 @@ declare namespace LocalJSX {
     }
     interface DesignaryNewsletter {
     }
-    interface DesignarySection {
+    interface DesignaryParalax {
     }
     interface DesignarySlider {
     }
@@ -263,7 +263,7 @@ declare namespace LocalJSX {
         "designary-grey-container": DesignaryGreyContainer;
         "designary-header-hero_section": DesignaryHeaderHero_section;
         "designary-newsletter": DesignaryNewsletter;
-        "designary-section": DesignarySection;
+        "designary-paralax": DesignaryParalax;
         "designary-slider": DesignarySlider;
         "designary-slideshow": DesignarySlideshow;
         "designary-testimonial": DesignaryTestimonial;
@@ -286,7 +286,7 @@ declare module "@stencil/core" {
             "designary-grey-container": LocalJSX.DesignaryGreyContainer & JSXBase.HTMLAttributes<HTMLDesignaryGreyContainerElement>;
             "designary-header-hero_section": LocalJSX.DesignaryHeaderHero_section & JSXBase.HTMLAttributes<HTMLDesignaryHeaderHero_sectionElement>;
             "designary-newsletter": LocalJSX.DesignaryNewsletter & JSXBase.HTMLAttributes<HTMLDesignaryNewsletterElement>;
-            "designary-section": LocalJSX.DesignarySection & JSXBase.HTMLAttributes<HTMLDesignarySectionElement>;
+            "designary-paralax": LocalJSX.DesignaryParalax & JSXBase.HTMLAttributes<HTMLDesignaryParalaxElement>;
             "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-slideshow": LocalJSX.DesignarySlideshow & JSXBase.HTMLAttributes<HTMLDesignarySlideshowElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
