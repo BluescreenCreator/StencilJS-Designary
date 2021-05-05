@@ -41,10 +41,14 @@ export namespace Components {
     }
     interface DesignarySlideshow {
     }
+    interface DesignaryTeaser {
+    }
     interface DesignaryTestimonial {
         "brand": string;
         "person": string;
         "text": string;
+    }
+    interface DesignaryText {
     }
     interface ExampleComponent {
         "exampleProp": string;
@@ -144,11 +148,23 @@ declare global {
         prototype: HTMLDesignarySlideshowElement;
         new (): HTMLDesignarySlideshowElement;
     };
+    interface HTMLDesignaryTeaserElement extends Components.DesignaryTeaser, HTMLStencilElement {
+    }
+    var HTMLDesignaryTeaserElement: {
+        prototype: HTMLDesignaryTeaserElement;
+        new (): HTMLDesignaryTeaserElement;
+    };
     interface HTMLDesignaryTestimonialElement extends Components.DesignaryTestimonial, HTMLStencilElement {
     }
     var HTMLDesignaryTestimonialElement: {
         prototype: HTMLDesignaryTestimonialElement;
         new (): HTMLDesignaryTestimonialElement;
+    };
+    interface HTMLDesignaryTextElement extends Components.DesignaryText, HTMLStencilElement {
+    }
+    var HTMLDesignaryTextElement: {
+        prototype: HTMLDesignaryTextElement;
+        new (): HTMLDesignaryTextElement;
     };
     interface HTMLExampleComponentElement extends Components.ExampleComponent, HTMLStencilElement {
     }
@@ -176,7 +192,9 @@ declare global {
         "designary-newsletter": HTMLDesignaryNewsletterElement;
         "designary-slider": HTMLDesignarySliderElement;
         "designary-slideshow": HTMLDesignarySlideshowElement;
+        "designary-teaser": HTMLDesignaryTeaserElement;
         "designary-testimonial": HTMLDesignaryTestimonialElement;
+        "designary-text": HTMLDesignaryTextElement;
         "example-component": HTMLExampleComponentElement;
         "my-component": HTMLMyComponentElement;
     }
@@ -217,10 +235,14 @@ declare namespace LocalJSX {
     }
     interface DesignarySlideshow {
     }
+    interface DesignaryTeaser {
+    }
     interface DesignaryTestimonial {
         "brand"?: string;
         "person"?: string;
         "text"?: string;
+    }
+    interface DesignaryText {
     }
     interface ExampleComponent {
         "exampleProp"?: string;
@@ -254,7 +276,9 @@ declare namespace LocalJSX {
         "designary-newsletter": DesignaryNewsletter;
         "designary-slider": DesignarySlider;
         "designary-slideshow": DesignarySlideshow;
+        "designary-teaser": DesignaryTeaser;
         "designary-testimonial": DesignaryTestimonial;
+        "designary-text": DesignaryText;
         "example-component": ExampleComponent;
         "my-component": MyComponent;
     }
@@ -276,7 +300,9 @@ declare module "@stencil/core" {
             "designary-newsletter": LocalJSX.DesignaryNewsletter & JSXBase.HTMLAttributes<HTMLDesignaryNewsletterElement>;
             "designary-slider": LocalJSX.DesignarySlider & JSXBase.HTMLAttributes<HTMLDesignarySliderElement>;
             "designary-slideshow": LocalJSX.DesignarySlideshow & JSXBase.HTMLAttributes<HTMLDesignarySlideshowElement>;
+            "designary-teaser": LocalJSX.DesignaryTeaser & JSXBase.HTMLAttributes<HTMLDesignaryTeaserElement>;
             "designary-testimonial": LocalJSX.DesignaryTestimonial & JSXBase.HTMLAttributes<HTMLDesignaryTestimonialElement>;
+            "designary-text": LocalJSX.DesignaryText & JSXBase.HTMLAttributes<HTMLDesignaryTextElement>;
             "example-component": LocalJSX.ExampleComponent & JSXBase.HTMLAttributes<HTMLExampleComponentElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }

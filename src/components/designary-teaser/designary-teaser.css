@@ -1,0 +1,190 @@
+:host {
+  display: block;
+}
+
+:root {
+  --margin-left: 80px;
+  --margin-right: 80px;
+  --colorText: #222;
+  --colorFeature:  rgb(165, 165, 165);
+  --colorSecondary: #fff;
+  --colorButtonFontHover: #eee;
+  --colorFading: rgba(255, 255, 255, 0.7);
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.main {
+  background: var(--colorSecondary);      
+  clear: both;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  width: 100%;
+  font-weight: 200;
+  color: var(--colorText);
+  text-align: left;
+  margin-left: var(--margin-left);
+}
+
+h2 {
+  width: 50%;
+  font-weight: 600;
+  margin-left: 70px;
+font-size: 20px;
+  color: var(--colorText);
+}
+
+h3 {
+  width: 100%;
+  font-weight: 400;
+  color: var(--colorText);
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-block-start: auto;
+  margin-block-end: auto;
+}
+
+.date, .time {
+  display: block;
+  width: 50%;
+  font-weight: bold;
+  margin-left: var(--margin-left);
+  margin-right: var (--margin-right);
+}
+
+.continuousText {
+  display: block;
+  font-weight: 50;
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+}
+
+.teaser {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0;
+  margin-right: 20px;
+}
+
+section {
+  width: 1551px;
+  background: var(--colorSecondary);
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+      width: 90%;                          /*Ändern, damit Bilder im farbigen Bereich sind (80). Bilder teils außerhalb des wrappers (90)*/
+      display: flex;
+      align-items: center;
+      background-color: var(--colorFeature);   
+      height: 350px;
+}
+
+.describtion {
+  display: block;
+  float: left;
+  padding-right: 280px;
+  padding-top: -20px;
+  padding-left: 40px;
+}
+
+.describtionZug {
+  display: block;
+  float: right;
+  padding-right: 40px;
+  padding-top: -20px;
+  padding-left: 280px;
+}
+
+figure {
+  text-align: center;
+}
+
+section .teaser ul {
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 3px;
+list-style: none;
+}
+
+
+/* Um Teaser anzupassen */
+section .teaser ul li {
+  width: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  position: relative;
+  overflow: hidden;
+  bottom: 3px;
+}
+
+/* Um Bilder vollständig und gleichgroß anzuzeigen */
+section .teaser ul li img {
+width: 100%;
+}
+
+section .teaser ul li h3 {
+margin-top: 90px;                   /*Ändern in 70, damit Bilder im farbigen Bereich sind. Ansonsten >90*/
+}
+
+section .teaser ul li .text{
+  position: absolute;
+width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: ease-in 0.5s, bottom 0.5s;
+}
+
+/* Hintergrundfarbe bei hover über Teaser */
+section .teaser ul li:hover .text {
+  display: block;
+  margin-right: 20px;
+  bottom: 0;
+background: var(--colorFading);
+}
+
+.button {
+display: inline-block;
+padding: 0 20px;
+line-height: 50px;
+background: var(--colorFeature);
+  color: var(--colorSecondary);
+text-decoration: none;
+}
+.button:hover {
+  color: var(--colorButtonFontHover);
+}
+
+.bildStrasse {
+  margin-top: 30px;
+  width: 318.8px;
+  height: 395.8px;
+  border: solid;
+  border-color: var(--colorSecondary);
+  border-width: 5px;
+}
+
+.bildDelfine {
+  margin-top: 20px;
+  border: solid;
+  border-color: var(--colorSecondary);
+  border-width: 5px;
+}
