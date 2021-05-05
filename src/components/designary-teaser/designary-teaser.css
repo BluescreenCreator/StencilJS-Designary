@@ -6,7 +6,7 @@
 .teasercontainer {
   height: fit-content;
   width: 400px;
-  background-color: pink;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -15,6 +15,8 @@
 .teasertext {
   padding: 20px;
   font-family: 'Lato';
+  font-size: 16px;
+  color: grey;
 }
 
 designary-button {
