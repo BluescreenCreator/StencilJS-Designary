@@ -1,4 +1,4 @@
-# designary-paralax
+# designary-parallax
 
 
 
