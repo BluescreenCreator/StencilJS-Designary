@@ -12,12 +12,14 @@ export class DesignaryButton {
     return (
       <Host>
         <div class="button1">
-        <button type="button"><a href="#">Kontakt</a></button>
+          <h2 class="section-title" >Buttons</h2>
+        <button type="button">EXAMPLE</button>
         </div>
         <br></br>
-        <div class="button2">
-        <button type="button" class="smallButton"><a href="#">Contact</a></button>
+        <div class="button1">
+        <button type="button1">EXAMPLE</button>
         </div>
+        <br></br>
       </Host>
     );
   }
