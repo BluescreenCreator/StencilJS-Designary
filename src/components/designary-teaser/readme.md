@@ -5,6 +5,15 @@
 <!-- Auto Generated Below -->
 
 
+## Properties
+
+| Property   | Attribute  | Description | Type     | Default     |
+| ---------- | ---------- | ----------- | -------- | ----------- |
+| `class`    | `class`    |             | `string` | `undefined` |
+| `imageurl` | `imageurl` |             | `string` | `undefined` |
+| `title`    | `title`    |             | `string` | `undefined` |
+
+
 ## Dependencies
 
 ### Depends on
