@@ -9,6 +9,9 @@ export namespace Components {
     interface DesignaryBlauContainer {
     }
     interface DesignaryButton {
+        "color": string;
+        "size": string;
+        "title": string;
     }
     interface DesignaryCards {
     }
@@ -212,6 +215,9 @@ declare namespace LocalJSX {
     interface DesignaryBlauContainer {
     }
     interface DesignaryButton {
+        "color"?: string;
+        "size"?: string;
+        "title"?: string;
     }
     interface DesignaryCards {
     }

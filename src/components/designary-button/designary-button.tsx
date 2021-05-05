@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, Host, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'designary-button',
@@ -7,19 +7,13 @@ import { Component, Host, h } from '@stencil/core';
 })
 
 export class DesignaryButton {
-
+@Prop() color: string;
+@Prop() size: string;
+@Prop() title: string;
   render() {
     return (
       <Host>
-        <div class="button1">
-          <h2 class="section-title" >Buttons</h2>
-        <button type="button">EXAMPLE</button>
-        </div>
-        <br></br>
-        <div class="button1">
-        <button type="button1">EXAMPLE</button>
-        </div>
-        <br></br>
+        <button class={this.color+' '+ this.size} type="button">{this.title}</button>
       </Host>
     );
   }
