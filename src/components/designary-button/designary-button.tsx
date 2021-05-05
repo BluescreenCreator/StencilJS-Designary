@@ -13,7 +13,11 @@ export class DesignaryButton {
       <Host>
         <div class="button1">
           <h2 class="section-title" >Buttons</h2>
-        <button type="button">Kontakt</button>
+        <button type="button">EXAMPLE</button>
+        </div>
+        <br></br>
+        <div class="button1">
+        <button type="button1">EXAMPLE</button>
         </div>
         <br></br>
       </Host>
