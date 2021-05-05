@@ -102,6 +102,15 @@ nav a:hover::after {
   width: 100%;
 }
 
+nav a.contact::after {
+  display: block;
+  height: 0;
+}
+
+nav a.contact:hover::after {
+  width: 0;
+}
+
 .designary {
   padding-right: 650px;
 }
@@ -127,15 +136,6 @@ button {
   box-shadow: none;
   width: 200px;
   margin-left: 788px;
-}
-
-nav a.contact::after {
-  display: block;
-  height: 0;
-}
-
-nav a.contact:hover::after {
-  width: 0;
 }
 
 .contact {
