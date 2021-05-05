@@ -10,13 +10,14 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
+  margin: 30px;
 }
 
 .teasertext {
   padding: 20px;
   font-family: 'Lato';
   font-size: 16px;
-  color: grey;
+  color: white;
 }
 
 designary-button {

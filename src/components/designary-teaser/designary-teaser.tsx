@@ -12,6 +12,7 @@ export class DesignaryParallax {
       <Host>
         <div class="teasercontainer">
           <img src="src/bilder/delfine_teaser.jpg" alt="Delfine" class="bildDelfine"></img>
+          <h6>Lorem ipsum</h6>
           <div class="teasertext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
           <designary-button title="See more"></designary-button>
         </div>

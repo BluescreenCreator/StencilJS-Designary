@@ -2,20 +2,6 @@
   display: block;
 }
 
-/*button {
-  width: 150px;
-  position: relative;
-  padding: 20px;
-  border-radius: 25px;
-  border-color: #34FFC8;
-  background-color: #34FFC8;
-  box-shadow: 0px 0px 10px #34FFC8;
-  height: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  vertical-align: center;
-}*/
-
 button {
   background-color: #34ffc8;
   width: fit-content;
@@ -34,17 +20,18 @@ button {
 button:hover {
   background-color: #6e6e6c;
   border-color: #6e6e6c;
-  /*box-shadow: 0px 0px 8px #6e6e6c;*/
   color: #34FFC8;
 }
 
 .lightgrey {
   background-color: rgb(150, 146, 146);
+  border-color:rgb(150, 146, 146);
   color:#34FFC8;
 }
 
 .lightgrey:hover {
   background-color: #34FFC8;
+  border-color: #34FFC8;
   color:rgb(150, 146, 146);
 }
 
@@ -52,3 +39,10 @@ button:hover {
   width: 300px;
 }
 
+.medium {
+  width: 200px
+}
+
+.small {
+  width:100px
+}
