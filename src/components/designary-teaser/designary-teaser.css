@@ -96,7 +96,7 @@ section {
       height: 350px;
 }
 
-.describtion {
+.descriptionRinge {
   display: block;
   float: left;
   padding-right: 280px;
@@ -104,7 +104,7 @@ section {
   padding-left: 40px;
 }
 
-.describtionZug {
+.descriptionDelfine {
   display: block;
   float: right;
   padding-right: 40px;
@@ -173,7 +173,7 @@ text-decoration: none;
   color: var(--colorButtonFontHover);
 }
 
-.bildStrasse {
+.bildRinge {
   margin-top: 30px;
   width: 318.8px;
   height: 395.8px;
