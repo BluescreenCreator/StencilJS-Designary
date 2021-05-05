@@ -15,7 +15,6 @@ export class DesignaryBlauContainer {
         <div class="gridelement">
           <div class="gridelement2">
             <div class="layout">
-              <div class="layout2"></div>
               <img width="200" src="src/icons/flying-object.svg"></img>
               
             </div>

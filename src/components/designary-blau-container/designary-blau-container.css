@@ -13,13 +13,6 @@ img{
   margin-bottom: 50px;
 }
 
-.text {
-  position: relative;
-  float: right;
-  color: #fff;
-  font-size: 38px;
-
-}
 h1 {
   font-family: 'Lato', Helvetica;
   font-size: 28pt;
@@ -35,14 +28,13 @@ h2 {
 }
 
 .gridelement{
-  max-width: 1440px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-color: #34FFC8;
 }
 .gridelement2{
   width: 49%;
