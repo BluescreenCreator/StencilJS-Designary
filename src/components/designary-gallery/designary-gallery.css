@@ -21,6 +21,7 @@ img {
 
 p {
   width: 100%;
-  padding-left: 3.79%;
+  justify-content: center;
+  align-items: center;
   display: inline-block;
 }
