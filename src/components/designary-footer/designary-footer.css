@@ -12,10 +12,6 @@ footer {
   padding-bottom: 50px;
 }
 
-footer nav {
-  width: 20%;
-}
-
 .wrapper {
   display: inline-block;
   padding-top: 20px;
@@ -28,15 +24,14 @@ div.footerLeft {
   margin: 0;
   position: relative;
   width: 54%;
-  display: inline-block;
-
 }
 
-.generalInformation {
+ul.generalInformation {
+  padding-left: 100px;
   list-style: none;
 }
 
-div.footerMiddle1, div.footerMiddle2 {
+div.footerMiddle1, div.footerMiddle2, div.footerRight {
   position: relative;
   width: 15%;
   display: inline-block;
@@ -44,29 +39,9 @@ div.footerMiddle1, div.footerMiddle2 {
   padding-right: -40px;
 }
 
-ul.information {
+ul.information, ul.resources {
   padding: 0;
   list-style: none;
-}
-
-div.footerRight {
-  position: relative;
-  width: 15%;
-  display: inline-block;
-  align-self: right;
-  bottom: 50px;
-}
-
-ul.resources {
-  padding: 0;
-  list-style: none;
-}
-
-.help {
-  font-family: 'Lato';
-  color: #34FFC8;
-  font-size: 18px;
-  text-decoration: none;
 }
 
 .socialMediaIcons {

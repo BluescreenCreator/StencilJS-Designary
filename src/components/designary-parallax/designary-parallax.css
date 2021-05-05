@@ -1,0 +1,20 @@
+:host {
+  display: block;
+}
+.container {
+  width: 100%;
+  height: fit-content;
+  padding: 90px 0px 90px 0px;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-image: url(https://images.pexels.com/photos/5641978/pexels-photo-5641978.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+background-size: 100%;
+background-attachment: fixed;
+}
+.leer{
+  margin: 50px;
+}
