@@ -13,20 +13,14 @@ button {
   border-color: #34ffc8;
   border-radius: 25px;
   font-size: 16px;
-  font-weight: light;
+  font-weight: lighter;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 button:hover {
   background-color: #6e6e6c;
   border-color: #6e6e6c;
   color: #34FFC8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .lightgrey {
