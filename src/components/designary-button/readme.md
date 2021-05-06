@@ -18,11 +18,13 @@
 
 ### Used by
 
+ - [designary-newsletter](../designary-newsletter)
  - [designary-teaser](../designary-teaser)
 
 ### Graph
 ```mermaid
 graph TD;
+  designary-newsletter --> designary-button
   designary-teaser --> designary-button
   style designary-button fill:#f9f,stroke:#333,stroke-width:4px
 ```
