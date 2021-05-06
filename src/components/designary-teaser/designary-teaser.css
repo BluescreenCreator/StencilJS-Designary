@@ -15,6 +15,7 @@
   justify-content: center;
   margin-top: 120px;
 }
+
 .column {
   display: inline-block;
   align-items: center;
@@ -39,6 +40,7 @@
   display: table;
   clear: both;
 }
+
 h3 {
 color: #fff;
   font-family: 'Lato', Helvetica;
@@ -50,6 +52,7 @@ color: #fff;
   margin-top: 30px;
 
 }
+
 p {
   color: #fff;
     font-family: 'Lato', Helvetica;
@@ -59,16 +62,17 @@ p {
     padding: 16px;
     text-align: center;
   
-  }
+}
+
 .teaserelement {
   margin: 15px 0;
 }
 
-.bild {
+img.bild {
+  margin-left: 15px;
   height: 330px;
   width: 330px;
 }
-
 
 * {
   box-sizing: border-box;
