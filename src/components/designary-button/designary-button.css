@@ -15,7 +15,11 @@ button {
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 button:hover {
   background-color: #6e6e6c;
