@@ -5,19 +5,41 @@ import { Component, Host, h, Prop } from '@stencil/core';
   styleUrl: 'designary-teaser.css',
   shadow: true,
 })
-export class DesignaryTeaser {
-@Prop() imageurl: string;
-@Prop() title: string;
-@Prop() class: string;
+export class DesignaryParallax {
+  @Prop() imageurl: string;
+  @Prop() title: string;
+  @Prop() class: string;
   render() {
     return (
       <Host>
-        <div class="teasercontainer">
-          <img src={this.imageurl} alt={this.title} class={this.class}></img>
-          <h6>Lorem ipsum</h6>
-          <div class="teasertext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</div>
-          <designary-button title="See more"></designary-button>
+
+        <div class="container">
+          <h2 class="section-title" >Featured Products</h2>
+          <div class="row">
+          <div class="column">
+            <div class="teaserelement">
+              <img class="bild" src="src/bilder/tauchen_teaser.jpg"></img>
+              <h3 >Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p> </div>
+            <designary-button title="See more"></designary-button>
+          </div>
+          <div class="column">
+            <div class="teaserelement">
+              <img class="bild" src="src/bilder/portrait_teaser.jpg"></img>
+              <h3 >Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p> </div>
+            <designary-button title="See more"></designary-button>
+          </div>
+          <div class="column">
+            <div class="teaserelement">
+              <img class="bild" src="src/bilder/swan_teaser.jpg"></img>
+              <h3 >Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p> </div>
+            <designary-button title="See more"></designary-button>
+          </div>
         </div>
+        </div>
+
       </Host>
     );
   }
