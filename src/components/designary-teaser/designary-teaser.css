@@ -74,3 +74,8 @@ p {
   box-sizing: border-box;
 }
 
+.hydrated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
