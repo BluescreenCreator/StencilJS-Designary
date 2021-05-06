@@ -43,26 +43,6 @@ h2 {
   -ms-flex-positive: 0;
   flex-grow: 0;
 }
-.button {
-  font-family: 'Lato', Helvetica;
-  font-size: 10pt;
-  background-color: #353535;
-  border-radius: 1000px;
-  box-shadow: 0px 8px 16px #34ffc81a;
-  height: 48px;
-  width: 200px;
-  padding: 14.5px 67px;
-  color: #fff;
-  margin-bottom: 50px;
-  margin-top: 20px;
-}
-.button:hover {
-  background-color: #34FFC8;
-  border-color: #353535;
-  color: #353535;
-  border-width: 1px;
-  border-style: solid;
-}
 
 * {
   box-sizing: border-box;

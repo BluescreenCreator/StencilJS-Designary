@@ -27,8 +27,8 @@ export class DesignaryBlauContainer {
                 dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
                 labore et dolore magna aliquyam erat, sed diam voluptua. </h2>
-                <div class="button"><div class="label">Read More</div>
-            </div>
+                <designary-button title="Read more"></designary-button>
+           
             </div>
           </div>
         </div>

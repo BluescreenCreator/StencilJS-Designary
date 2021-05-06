@@ -18,12 +18,14 @@
 
 ### Used by
 
+ - [designary-blau-container](../designary-blau-container)
  - [designary-newsletter](../designary-newsletter)
  - [designary-teaser](../designary-teaser)
 
 ### Graph
 ```mermaid
 graph TD;
+  designary-blau-container --> designary-button
   designary-newsletter --> designary-button
   designary-teaser --> designary-button
   style designary-button fill:#f9f,stroke:#333,stroke-width:4px
