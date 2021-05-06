@@ -5,7 +5,7 @@ import { Component, Host, h, Prop } from '@stencil/core';
   styleUrl: 'designary-teaser.css',
   shadow: true,
 })
-export class DesignaryParallax {
+export class DesignaryTeaser {
 @Prop() imageurl: string;
 @Prop() title: string;
 @Prop() class: string;
